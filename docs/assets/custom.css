@@ -1,0 +1,40 @@
+.md-header .md-logo {
+	display: none;
+}
+
+.md-header .md-header-nav__topic:nth-child(1) {
+	display: none;
+}
+
+.md-header .md-header-nav__topic {
+	width: auto !important;
+	display: inline-block;
+}
+
+.md-header .md-header-nav__title:before {
+	content: " ";
+	display: inline-block;
+	width: 12.5rem;
+	height: 1.5rem;
+	margin-top: 0.45rem;
+	background-image: url(/assets/logo.svg);
+	background-size: auto 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.md-nav .md-nav__title {
+	font-size: 0;
+	height: 1rem !important;
+}
+
+.md-nav .md-nav__title a {
+	width: calc(100% - 32px) !important;
+	height: 100% !important;
+	top: 0 !important;
+	bottom: 0 !important;
+	left: 16px !important;
+	right: 16px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}

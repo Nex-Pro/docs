@@ -17,8 +17,10 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
-    logo: images/logo.svg
-    favicon: images/favicon.png
+    logo: assets/logo.svg
+    favicon: assets/favicon.png
+extra_css:
+    - assets/custom.css
 
 extra:
     repo_icon: gitlab
