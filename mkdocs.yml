@@ -1,0 +1,36 @@
+site_name: Tivoli Cloud VR Docs
+site_description: Documentation for Tivoli Cloud VR
+site_author: Tivoli Cloud VR
+site_url: https://docs.tivolicloud.com
+
+repo_name: tivolicloud/docs
+repo_url: https://git.tivolicloud.com/tivolicloud/docs
+
+copyright: "Copyright &copy; 2020 Tivoli Cloud VR"
+
+theme:
+    name: material
+    language: en
+    palette:
+        primary: pink
+        accent: pink
+    font:
+        text: Roboto
+        code: Roboto Mono
+    logo: images/logo.png
+    favicon: images/favicon.png
+
+extra:
+    repo_icon: gitlab
+
+markdown_extensions:
+    - admonition # block-styled side content like warnings
+    - codehilite: # code highlighting
+          guess_lang: false
+    - toc: # table of content
+          permalink: true
+plugins:
+    - search
+    - git-revision-date-localized
+    - minify:
+          minify_html: true
