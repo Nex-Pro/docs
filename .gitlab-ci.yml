@@ -2,6 +2,7 @@ pages:
     stage: deploy
     image: python:alpine
     script:
+        - apk add git
         - pip install -r requirements.txt
         - mkdocs build -d public
     artifacts:
