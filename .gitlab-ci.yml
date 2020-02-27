@@ -1,6 +1,9 @@
 pages:
     stage: deploy
-    image: squidfunk/mkdocs-material
+    image:
+        name: squidfunk/mkdocs-material
+        entrypoint:
+            - sh
     script:
         - mkdocs build -d public
     artifacts:
