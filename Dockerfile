@@ -1,7 +1,8 @@
 FROM alpine
 
+WORKDIR /root
+ADD requirements.txt /root
+
 RUN \
-ls / && \
-ls && \
 apk add git python3 && \
 python3 -m pip install -r requirements.txt
