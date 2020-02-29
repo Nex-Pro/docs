@@ -17,7 +17,7 @@ docker image:
 
     script:
         - docker build -t $CI_REGISTRY/tivolicloud/docs:latest .
-        - docker login $CI_REGISTRY -u makitsune -p $CI_JOB_TOKEN
+        - docker login $CI_REGISTRY -u gitlab-ci-token -p $CI_JOB_TOKEN
         - docker push $CI_REGISTRY/tivolicloud/docs:latest
 
 pages:
