@@ -4,5 +4,5 @@ WORKDIR /root
 ADD requirements.txt /root
 
 RUN \
-apk add git python3 docker-cli && \
+apk add git python3 && \
 python3 -m pip install -r requirements.txt

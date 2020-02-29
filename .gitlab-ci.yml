@@ -16,13 +16,13 @@ docker image:
             - requirements.txt
 
     script:
-        - docker build -t registry.tivolicloud.com/tivolicloud/docs:latest .
-        - docker login registry.tivolicloud.com -u makitsune -p $GITLAB_TOKEN
-        - docker push registry.tivolicloud.com/tivolicloud/docs:latest
+        - docker build -t $CI_REGISTRY/tivolicloud/docs:latest .
+        - docker login $CI_REGISTRY -u makitsune -p $CI_JOB_TOKEN
+        - docker push $CI_REGISTRY/tivolicloud/docs:latest
 
 pages:
     stage: deploy
-    image: registry.tivolicloud.com/tivolicloud/docs
+    image: $CI_REGISTRY/tivolicloud/docs
     script:
         - mkdocs build -d public
     artifacts:
