@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.5.0 (March 11, 2020)
+
+-   Tivoli interface will **close much faster**
+-   **Experimental** new **hand laser redesign**
+-   Reactivated **secure microphone and camera permissions** for web entities
+-   **Secondary camera** uses **proper light and shadow rendering** again
+-   **Experimenal loading content indicator redesign** which will be changed
+    <br><br>
+-   Several **zone culling and static entities** bug fixes
+-   Several **static entities** bug fixes including when in create mode
+-   Fixed crashes on **audio output device change**
+
 ## 0.4.1 (February 18, 2020)
 
 -   **Fixed disable VR button** in launcher
