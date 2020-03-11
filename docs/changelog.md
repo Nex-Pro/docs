@@ -6,7 +6,7 @@
 -   **Experimental** new **hand laser redesign**
 -   Reactivated **secure microphone and camera permissions** for web entities
 -   **Secondary camera** uses **proper light and shadow rendering** again
--   **Experimenal loading content indicator redesign** which will be changed
+-   **Experimental loading content indicator redesign** which will be changed
     <br><br>
 -   Several **zone culling and static entities** bug fixes
 -   Several **static entities** bug fixes including when in create mode
