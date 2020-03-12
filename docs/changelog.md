@@ -3,6 +3,7 @@
 ## 0.5.0 (March 11, 2020)
 
 -   Tivoli interface will **close much faster**
+-   Setting **blendshapes on model entities** are supported
 -   **Experimental** new **hand laser redesign**
 -   Reactivated **secure microphone and camera permissions** for web entities
 -   **Secondary camera** uses **proper light and shadow rendering** again
