@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
 .md-header .md-logo {
 	display: none;
 }
@@ -44,5 +46,5 @@
 .md-typeset h1,
 .md-typeset h2 {
 	color: #000;
-	font-weight: bold;
+	font-weight: 500;
 }
