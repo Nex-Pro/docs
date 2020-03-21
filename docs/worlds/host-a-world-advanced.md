@@ -7,7 +7,7 @@ This guide is currently the only way to host a Tivoli world.
 You will need:
 
 -   a little bit of knowledge of how **Docker** works
--   a machine with any distribution of **Linux 64 bit** installed.
+-   a machine with any distribution of **Linux 64 bit** installed
 
 ## 1. Install Docker and Docker Compose
 
@@ -83,7 +83,7 @@ services:
             - HIFI_ASSIGNMENT_CLIENT_ENTITIES_SERVER_PORT=48006
 ```
 
-Rename every instance of `my-world` with the name of you world.
+Rename every instance of `my-world` with the name of your world.
 
 ```yml
 volumes:
@@ -102,7 +102,7 @@ If you add more than one server, **you must update the port numbers** defined in
 
 If you're using a server from **DigitalOcean** or any other cloud provider, you must make sure the ports defined in your `docker-compose.yml` are externally available to the world.
 
-**We recommend allowing ports, tcp and udp**:
+**We recommend allowing ports, TCP and UDP**:
 
 -   `40100-40110`
 -   `48000-48010`
@@ -139,7 +139,7 @@ This part is a **little messy and that will change**. We're still in alpha and h
     -   Click **"Create new world"** and fill as much as you can.
     -   Once your world has been created, click **"Generate new access token"** and copy the token.
         -   This is a **secret key that binds your server to your world**. You can revoke it at any time by generating a new token.
-    -   Go back to your **server web page and paste the token**. Click **"OK"**
+    -   Go back to your **server web page and paste the token**. Click **"OK"**.
 
 -   **Step 2 of 3**:
 
