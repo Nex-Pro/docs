@@ -21,6 +21,8 @@ theme:
     favicon: assets/favicon.png
 extra_css:
     - assets/custom.css
+extra_javascript:
+    - assets/custom.js
 
 extra:
     repo_icon: gitlab
