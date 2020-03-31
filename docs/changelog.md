@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.6.0 (March 28, 2020)
+
+-   Updated Tivoli to **Qt 5.14.1**!
+    -   **Web entities work perfectly** now as they're using updated **Chrome version 77**
+    -   **All video and audio codecs work now** so you can watch Twitch with your friends
+    -   Overall speed performance from almost a year's worth of patches
+        <br><br>
+-   Fixed bug where **entity animations** weren't playing
+-   You can **tilt your camera now when loading** a world
+-   World's load properly now if you have a **slow internet connection**
+-   Web entities aren't "mobile devices" anymore when visiting websites (user agent)
+    <br><br>
+-   **Logging in with Google** works again on the launcher
+-   For people with **VC redist** problems, you can launch Tivoli without installing anything
+
 ## 0.5.0 (March 11, 2020)
 
 -   Tivoli interface will **close much faster**
