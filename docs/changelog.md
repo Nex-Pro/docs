@@ -9,7 +9,7 @@
         <br><br>
 -   Fixed bug where **entity animations** weren't playing
 -   You can **tilt your camera now when loading** a world
--   World's load properly now if you have a **slow internet connection**
+-   Worlds load properly now if you have a **slow internet connection**
 -   Web entities aren't "mobile devices" anymore when visiting websites (user agent)
     <br><br>
 -   **Logging in with Google** works again on the launcher
