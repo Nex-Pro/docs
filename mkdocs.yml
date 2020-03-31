@@ -8,6 +8,16 @@ repo_url: https://git.tivolicloud.com/tivolicloud/docs
 
 copyright: "Copyright &copy; 2020 Tivoli Cloud VR"
 
+nav:
+    - index.md
+    - changelog.md
+    - Worlds:
+          - worlds/host-a-world-advanced.md
+    - Avatars:
+          - avatars/avatar-standards.md
+    - Shaders:
+          - shaders/shader-api-reference.md
+
 theme:
     name: material
     language: en
