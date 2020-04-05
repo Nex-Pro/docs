@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.6.0 (March 28, 2020)
+## 0.6.0 - March 28, 2020
 
 -   Updated Tivoli to **Qt 5.14.1**!
     -   **Web entities work perfectly** now as they're using updated **Chrome version 77**
@@ -15,7 +15,7 @@
 -   **Logging in with Google** works again on the launcher
 -   For people with **VC redist** problems, you can launch Tivoli without installing anything
 
-## 0.5.0 (March 11, 2020)
+## 0.5.0 - March 11, 2020
 
 -   Tivoli interface will **close much faster**
 -   Setting **blendshapes on model entities** are supported
@@ -28,14 +28,14 @@
 -   Several **static entities** bug fixes including when in create mode
 -   Fixed crashes on **audio output device change**
 
-## 0.4.1 (February 18, 2020)
+## 0.4.1 - February 18, 2020
 
 -   **Fixed disable VR button** in launcher
 -   **Default settings for new users** have been updated
 -   Moved launcher developer settings
 -   Prettier launcher background
 
-## 0.4.0 (February 12, 2020)
+## 0.4.0 - February 12, 2020
 
 -   **Features and improvements**
 
@@ -65,7 +65,7 @@
         -   Removed annoying uploading to asset server message that was creepy and weird
         -   Fixed scrollbars that were missing
 
-## 0.3.0 (January 21, 2020)
+## 0.3.0 - January 21, 2020
 
 -   **Zone culling cull all entity types** and transitions faster
 -   **Entities load faster when you connect** by temporarily disabling their render priority
@@ -77,7 +77,7 @@
     <br><br>
 -   **Launcher has a disable VR button** next to the launch button
 
-## 0.2.0 (January 17, 2020)
+## 0.2.0 - January 17, 2020
 
 -   **Frame rate** has been significantly improved
 -   **Zone culling** performance has improved
@@ -87,6 +87,6 @@
     <br><br>
 -   Improved developer UI for **launcher**
 
-## 0.1.0 (January 9, 2020)
+## 0.1.0 - January 9, 2020
 
 -   Initial release!
