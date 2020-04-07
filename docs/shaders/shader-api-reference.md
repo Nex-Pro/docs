@@ -16,10 +16,15 @@
 		// urls
 		"fragmentShaderURL": "https://example.com/shader.fs", // for frag
 		"vertexShaderURL": "https://example.com/shader.vs", // for vertex
+		"shaderUrl": "", // deprecated but better supported
 
 		// optional
 		"channels": [], // string array with maximum of 4 urls
-		"uniforms": {} // map of uniform keys that will be used in the shader
+		"uniforms": {
+			// map of uniform keys that will be used in the shader
+			"myFloat": 0.5,
+			"myVec3": [1, 0, 0]
+		}
 	}
 }
 ```
@@ -28,7 +33,7 @@
 
 -   Create a **material entity** and set the **url to `materialData`**
 -   Make sure to set the **parent id** of the material entity to the model's entity id
--   Scroll down and update the **material data** json accordingl
+-   Scroll down and update the **material data** json accordingly
 
 ```json
 {
@@ -72,6 +77,7 @@ float getProceduralFragment(inout ProceduralFragment frag) {
 
     vec4 screenCoords = _positionES; // (eye) screen coords
     vec4 coords = _positionMS; // model coords
+    // _position is available in "shaderUrl"
 
     vec2 texCoords = _texCoord01;
 
