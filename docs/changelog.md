@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.7.1 - April 21, 2020
+
+-   **Fixed the macOS version** from crashing. This was a silly mistake of us
+-   **Anti-aliasing is permanently disabled** until it's fixed
+
+## 0.7.0 - April 17, 2020
+
+-   **Tivoli for macOS** is now available!
+    <br><br>
+-   **Updated all fonts!** This is so lovely because it's now consistent
+-   **Removed all ugly gradients!** Buttons with gradients don't fit in
+-   **Started fixing capitalization** on buttons and text
+-   Added **supersampling up to 5x** in the performance settings
+    <br><br>
+-   Updated the **performance settings** which needs major redesigning regardless
+    -   _There's now a **potato** option..._
+-   Experimental **"reload model"** button on model entities
+-   Experimental **disable custom shaders** option
+-   Experimental **disable bone flow** option
+-   Experimental **force unlit** option
+-   Experimental **fast refresh scene** button
+    <br><br>
+-   Fixed a bug where **glb models** weren't being loaded
+-   Fixed the bug where a **white rectangle always appears** at 0,0,0
+-   Fixed old broken links in the menus
+-   Green loading cube is now a Tivoli colored cube!
+
 ## 0.6.0 - March 28, 2020
 
 -   Updated Tivoli to **Qt 5.14.1**!
