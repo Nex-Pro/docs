@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.2 - April 22, 2020
+
+-   New **private tab in explore** where you can find worlds you have access to
+    <br><br>
+-   Fixed window **not centering on macOS**
+-   Fixed **disable vr** showing in launcher when using unsupported platform
+-   Fixed **reloading and searching** in explore menu
+-   Fixed **default world for new users**. They will spawn at Silence now
+
 ## 0.7.1 - April 21, 2020
 
 -   **Fixed the macOS version** from crashing. This was a silly mistake of us
