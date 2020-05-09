@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.8.0 - May 9, 2020
+
+-   **Tivoli for Linux** is now available! As an **AppImage, deb and arch package**
+    <br><br>
+-   Brand new **default avatar called Lynden** (inspired from [Devs](https://www.imdb.com/title/tt8134186)), unique per person
+    -   New button in **avatar app** that will let you randomize colors
+-   Lots of **user interface updates** to fit our design language
+    -   Updated **the toolbar at the bottom** with new colorful buttons
+    -   Updated **the window frames**
+    -   Updated **the icons**
+-   New **default skybox** to be a pretty colorful aurora
+-   New **menu buttons**
+    -   **Settings > Use Avatar Placeholders** will stop rendering avatar models
+    -   **Settings > Custom Shaders on Models** which is enabled by default
+    -   **Developer > Tivoli Options > Stop Rendering**
+    -   **Edit > Reload Avatar**
+        <br><br>
+-   Fixed **secondary camera being too dark** on mirrors or spectator camera
+-   Fixed **avatars resetting when changing worlds** _...thank goodness finally_
+-   Fixed **reload model button** on model entities
+-   Fixed **flipped normals on double sided geometry** -- [thank you HifiExperiments](https://git.tivolicloud.com/tivolicloud/interface/-/commit/f817e7af46232826c21b5e4db9414a0985ada701)
+-   Fixed **default spawn location** for new users, now at Silence
+-   Fixed **default camera not set to third person**
+-   Fixed current version not showing on [https://apidocs.tivolicloud.com](https://apidocs.tivolicloud.com)
+
 ## 0.7.2 - April 22, 2020
 
 -   New **private tab in explore** where you can find worlds you have access to
