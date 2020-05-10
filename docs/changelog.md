@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.2 - May 10, 2020
+
+-   Fixed bug where you could be in third person in VR
+-   Reverted laser pointers back to older design for now
+
 ## 0.8.1 - May 9, 2020
 
 -   Fixed **tablet which broke from last update**
