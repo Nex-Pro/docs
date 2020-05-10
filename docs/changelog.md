@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.1 - May 9, 2020
+
+-   Fixed **tablet which broke from last update**
+-   Updated **the toolbar and tablet fonts** to be condensed
+-   Updated **the tablet** user interface
+
 ## 0.8.0 - May 9, 2020
 
 -   **Tivoli for Linux** is now available! As an **AppImage, deb and arch package**
