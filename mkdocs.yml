@@ -6,7 +6,7 @@ site_url: https://docs.tivolicloud.com
 repo_name: tivolicloud/docs
 repo_url: https://git.tivolicloud.com/tivolicloud/docs
 
-copyright: "Copyright &copy; 2020 Tivoli Cloud VR"
+copyright: "Copyright &copy; 2020 Tivoli Cloud VR, Inc."
 
 nav:
     - index.md
