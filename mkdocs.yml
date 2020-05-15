@@ -11,12 +11,18 @@ copyright: "Copyright &copy; 2020 Tivoli Cloud VR"
 nav:
     - index.md
     - changelog.md
+    - ""
     - Worlds:
           - worlds/host-a-world-advanced.md
     - Avatars:
           - avatars/avatar-standards.md
+    - Scripts:
+          - scripts/get-started.md
     - Shaders:
           - shaders/shader-api-reference.md
+    - ""
+    - API Reference: "https://apidocs.tivolicloud.com"
+    - Roadmap: "https://roadmap.tivolicloud.com"
 
 theme:
     name: material
