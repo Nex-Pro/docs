@@ -133,7 +133,7 @@ Check the servers' logs and if there are no errors, it is running!
 This part is a **little messy and that will change**. We're still in alpha and have major redesigning to do from the old server admin panel.
 
 -   Open your web browser and visit: [http://localhost:40100](http://localhost:40100)
--   **Step 1 of 3**:
+-   **Step 1 of 2**:
 
     -   Click **"Connect your Tivoli Cloud World"** and you will be redirected to your worlds.
     -   Click **"Create new world"** and fill as much as you can.
@@ -141,35 +141,29 @@ This part is a **little messy and that will change**. We're still in alpha and h
         -   This is a **secret key that binds your server to your world**. You can revoke it at any time by generating a new token.
     -   Go back to your **server web page and paste the token**. Click **"OK"**.
 
--   **Step 2 of 3**:
-
-    -   Ignore this page and click **"Next"**.
-
--   **Step 3 of 3**:
+-   **Step 2 of 2**:
 
     -   Add the **usernames of the people who you want to give full permissions** to.
-    -   Who can connect and can rez items (use create tools):
-        -   **None**: Nobody will have access.
+    -   Who can join and create:
+        -   **None**: Nobody will have access. Will make your world private.
         -   **Friends**: Your friends from the account you connected the server with.
-        -   **Users logged into High Fidelity**: Securely available to everyone.
-        -   <strike>**Everyone**</strike> Don't use this! It's broken, makes no sense and will be removed.
+        -   **Everyone logged in**: Securely available to everyone.
 
 -   **Linking the server correctly with the world**:
 
     -   You will now find yourself in the admin panel. In the **settings** page at the very top:<br />![](setup-1.jpg)
-    -   Expand **"Advanced Settings"** and click **"Choose from my domains"**. Only one world will be available.
+    -   Expand **"Advanced Settings"** and click **"Choose from my worlds"**. Only one world will be available.
     -   Click **"Save and restart"**:<br />![](setup-2.png)
     -   After the page has reloaded, you will now find:<br />![](setup-3.png)
 
     -   **Automatic Networking** must be set to either:
 
-        -   **None**: Where you specify a **static external IP address** and port. This is recommended if you have a domain that links to the machine you're working on.
-        -   **IP Only**: Where you only specify the port. This is easiest, most recommended and works as a free DNS!
-        -   <strike>**Full**</strike>: This is broken and needs fixing. This will be the recommended option when it fully works.
+        -   **Full**: Recommended! Will` automatically establish a connection using the ICE protocol.
+        -   **IP Only**: Just specify the port and it will work as a free DNS.
+        -   **None**: Where you specify a **static external IP address** and port. This is recommended if you have a web domain pointing to the machine you're working on.
+            -   **Network Address:Port** or **Network Port** must be set accordingly. The port is set to `HIFI_DOMAIN_SERVER_PORT` which is usually `40102` (+2 from the admin panel HTTP port)
 
-    -   **Network Address:Port** or **Network Port** must be set accordingly. The port is set to `HIFI_DOMAIN_SERVER_PORT` which is usually `40102` (+2 from the admin panel HTTP port)
-
-Now that those settings have been set, everything should work now!
+Now that those settings have been set, everything should work!
 
 ## 6. Installation complete!
 
