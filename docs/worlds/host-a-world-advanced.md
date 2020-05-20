@@ -158,7 +158,7 @@ This part is a **little messy and that will change**. We're still in alpha and h
 
     -   **Automatic Networking** must be set to either:
 
-        -   **Full**: Recommended! Will` automatically establish a connection using the ICE protocol.
+        -   **Full**: Recommended! Will automatically establish a connection using the ICE protocol.
         -   **IP Only**: Just specify the port and it will work as a free DNS.
         -   **None**: Where you specify a **static external IP address** and port. This is recommended if you have a web domain pointing to the machine you're working on.
             -   **Network Address:Port** or **Network Port** must be set accordingly. The port is set to `HIFI_DOMAIN_SERVER_PORT` which is usually `40102` (+2 from the admin panel HTTP port)
