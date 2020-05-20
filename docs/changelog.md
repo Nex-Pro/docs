@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.9.0 - May 20, 2020
+
+**Protocol update!** You'll need to update your servers too.
+
+-   New work in progress **Market app** where you can find avatars
+-   See **interface logs in the launcher** with button to copy to clipboard
+-   **Key bindings are now visible** in all menus
+-   Rebranded to **early access**
+    <br><br>
+-   Servers can now use **full automatic networking** with ICE protocol
+-   Fixed bug where **snaps were incorrectly named**
+-   On macOS, **window will be full screen** on startup now
+
+...and lots of other backend changes readying for our public release!
+
 ## 0.8.2 - May 10, 2020
 
 -   Fixed bug where you could be in third person in VR
