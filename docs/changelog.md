@@ -12,8 +12,9 @@
 -   Servers can now use **full automatic networking** with ICE protocol
 -   Fixed bug where **snaps were incorrectly named**
 -   On macOS, **window will be full screen** on startup now
-
-...and lots of other backend changes readying for our public release!
+    <br><br>
+-   We've moved all CDN content to Google Cloud so **expect much faster downloads**
+-   Lots of other backend changes readying for our public release!
 
 ## 0.8.2 - May 10, 2020
 
