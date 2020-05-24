@@ -12,8 +12,12 @@ nav:
     - index.md
     - changelog.md
     - ""
+    - Guides:
+        - guides/get-started.md
     - Worlds:
           - worlds/host-a-world-advanced.md
+          - worlds/world-settings.md
+          - worlds/my-files.md
     - Avatars:
           - avatars/avatar-standards.md
     - Scripts:
