@@ -35,7 +35,7 @@ Once you've signed in, you can also find your **profile settings** and **availab
 
         !!! info "During early access, getting a server for a world is complicated"
 
-            Eventually it will easy. However, there's an advanced guide for
+            Eventually it will be easy. However, there's an advanced guide for
             <br>
             self-hosting on Linux which you can find [here](worlds/host-a-world-advanced)
 
