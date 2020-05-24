@@ -125,8 +125,8 @@ More formally, you can contact us via email at [support@tivolicloud.com](mailto:
 
 ## Recommended pages
 
--   [Changelog](index/changelog)
--   Worlds &ndash; [Host a world (advanced)](index/worlds/host-a-world-advanced)
--   Avatars &ndash; [Avatar standards](index/avatars/avatar-standards)
--   Scripts &ndash; [Get started with scripting](index/scripts/get-started)
--   Shaders &ndash; [Shader API reference](index/shaders/shader-api-reference)
+-   [Changelog](changelog)
+-   Worlds
+    -   [Uploading assets with Tivoli](worlds/uploading-assets)
+-   Scripts
+    -   [Get started with scripting](scripts/get-started)
