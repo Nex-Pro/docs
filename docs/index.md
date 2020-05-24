@@ -9,7 +9,7 @@
 
 ## Create an account
 
-You can <a href="https://alpha.tivolicloud.com" target="_blank">create a Tivoli Cloud VR account</a> on our website.
+You can <a href="https://alpha.tivolicloud.com" target="_blank">create a Tivoli account</a> on our website.
 
 Sign up using **email and password**, or through one of the **external services**.
 
