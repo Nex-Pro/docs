@@ -59,9 +59,9 @@
 	font-weight: 500;
 }
 
-.md-nav {
-	font-size: 0.8rem; /* which is regular text size. default: 0.7rem */
-}
+/* .md-nav {
+	font-size: 0.8rem; which is regular text size. default: 0.7rem
+} */
 
 .md-nav__item a[title="None"] {
 	font-size: 0;
