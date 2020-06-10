@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.9.1 - June 9, 2020
+
+-   **tivoli.link is now available** for sharing worlds! Visit **My Worlds** and copy your world link
+    <br><br>
+-   **Crashes are now sent to our servers** so we can quickly fix bugs and improve stability
+-   When errors occur in the launcher, they'll be shown instead of ignored
+    <br><br>
+-   **Default rotation and position** of newly created entities now face you
+-   Added **Reload Page** to web entity properties
+    <br><br>
+-   Updated to **Qt 5.15 LTS**
+-   JavaScript **objects will now print correctly** in the console
+-   Fixed **Settings > Custom Shaders on Models** menu button
+-   Model origins `registrationPoint` can now be outside of the model's bounding box
+-   Added `sendToQml` function and `fromQml` signal to web entities
+
 ## 0.9.0 - May 20, 2020
 
 **Protocol update!** You'll need to update your servers too.
