@@ -36,6 +36,7 @@ theme:
         code: Roboto Mono
     logo: assets/logo.svg
     favicon: assets/favicon.png
+    custom_dir: overrides
 extra_css:
     - assets/custom.css
 extra_javascript:
