@@ -64,7 +64,7 @@ Write a new file **inside the folder** using your favorite text editor:
 version: "3.6"
 services:
     my-world:
-        image: tivolicloud/server:latest
+        image: registry.tivolicloud.com/tivolicloud/interface/server:latest
         network_mode: host
         restart: always
         volumes:
