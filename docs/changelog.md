@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.2 - June 18, 2020
+
+-   **Fixed textures and models not loading** on Windows and macOS
+-   Updated the **Enter/Leave VR** button with a non-glitchy icon
+    <br><br>
+-   Launcher now shows **version in window title**
+-   Interface **launch errors are now properly shown** on the launcher
+    <br><br>
+-   Fixed a sudden crash when changing model URLs
+-   Fixed reloading content in serverless worlds -- [thank you ctrlaltdavid](https://git.tivolicloud.com/tivolicloud/interface/-/commit/f2051e1d6df5efd72fa8a4bf0ab07b7ffbd839e4)
+
 ## 0.9.1 - June 9, 2020
 
 -   **tivoli.link is now available** for sharing worlds! Visit **My Worlds** and copy your world link
