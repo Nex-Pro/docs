@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.3 - June 24, 2020
+
+**Tivoli is now out on https://tivolicloud.com**
+
+It's required to use this version to access Tivoli!
+
+Just a couple of bug fixes
+
+- Shadows look better now as they have a longer distance
+- Textures will downscale at resolution 4096 instead of 2048
+
 ## 0.9.2 - June 18, 2020
 
 -   **Fixed textures and models not loading** on Windows and macOS
