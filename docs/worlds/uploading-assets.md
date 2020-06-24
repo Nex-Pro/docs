@@ -8,7 +8,7 @@ Tivoli provides **free file storage of 1GB for free**, soon to be expandable.
 
 Anything you upload will be hosted on **an infinitely scalable ultra fast server**. It's recommended that you use it so that users can **load worlds as fast as possible** without causing more lag.
 
-You can find <a href="https://alpha.tivolicloud.com/user/files" target="_blank">**My Files**</a> on the Tivoli website under **Apps**.
+You can find <a href="https://tivolicloud.com/user/files" target="_blank">**My Files**</a> on the Tivoli website under **Apps**.
 
 ![Apps](../index/apps.png)
 

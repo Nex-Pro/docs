@@ -9,7 +9,7 @@
 
 ## Create an account
 
-You can <a href="https://alpha.tivolicloud.com" target="_blank">create a Tivoli account</a> on our website.
+You can <a href="https://tivolicloud.com" target="_blank">create a Tivoli account</a> on our website.
 
 Sign up using **email and password**, or through one of the **external services**.
 
@@ -29,9 +29,9 @@ Once you've signed in, you can also find your **profile settings** and **availab
 
 -   <img src="index/apps-apps.png" alt="Apps" style="vertical-align: middle"/> are also available
 
-    -   <a href="https://alpha.tivolicloud.com/user/files" target="_blank">My Files</a> is your own personal file storage. You'll have **1 GB for free** which you can use to **upload avatars and 3D models**.
+    -   <a href="https://tivolicloud.com/user/files" target="_blank">My Files</a> is your own personal file storage. You'll have **1 GB for free** which you can use to **upload avatars and 3D models**.
 
-    -   <a href="https://alpha.tivolicloud.com/user/files" target="_blank">My Worlds</a> is where you can **manage your worlds**.
+    -   <a href="https://tivolicloud.com/user/files" target="_blank">My Worlds</a> is where you can **manage your worlds**.
 
         !!! info "During early access, getting a server for a world is complicated"
 
@@ -41,7 +41,7 @@ Once you've signed in, you can also find your **profile settings** and **availab
 
 ## Downloading Tivoli and launching
 
-<a href="https://alpha.tivolicloud.com/download" target="_blank">Download our Tivoli Cloud VR launcher</a> which you can install.
+<a href="https://tivolicloud.com/download" target="_blank">Download our Tivoli Cloud VR launcher</a> which you can install.
 
 It's available for the following operating systems:
 
@@ -117,7 +117,7 @@ This is the **tablet** when using **VR** mode:
 
 ## Further information
 
-If you need help or have questions, we're available on our <a href="https://alpha.tivolicloud.com/discord" target="_blank">Discord</a>
+If you need help or have questions, we're available on our <a href="https://tivolicloud.com/discord" target="_blank">Discord</a>
 
 If you have a suggestion or you found a bug, you can post it on our <a href="https://roadmap.tivolicloud.com" target="_blank">Roadmap</a>
 

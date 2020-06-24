@@ -167,9 +167,9 @@ Now that those settings have been set, everything should work!
 
 ## 6. Installation complete!
 
-You can now find your world in [https://alpha.tivolicloud.com/user/worlds](https://alpha.tivolicloud.com/user/worlds) which should indicate that there are **0 users**. If it says **Offline**, then something went wrong.
+You can now find your world in [https://tivolicloud.com/user/worlds](https://tivolicloud.com/user/worlds) which should indicate that there are **0 users**. If it says **Offline**, then something went wrong.
 
-You can always **message us or the community for help** on our **Discord server**. [https://alpha.tivolicloud.com/discord](https://alpha.tivolicloud.com/discord)
+You can always **message us or the community for help** on our **Discord server**. [https://tivolicloud.com/discord](https://tivolicloud.com/discord)
 
 I hope this guide was useful to you and you can enjoy your own space in the metaverse!
 
