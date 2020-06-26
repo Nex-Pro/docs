@@ -41,6 +41,11 @@
 		padding: 0 !important;
 		margin: 0 !important;
 	}
+
+	.md-nav .md-nav__title a img {
+		width: 100% !important;
+		height: 100% !important;
+	}
 }
 
 @media (min-width: 1220px) {

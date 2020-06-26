@@ -3,7 +3,7 @@
 For developing, use Python and
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt --upgrade
 mkdocs serve
 ```
 

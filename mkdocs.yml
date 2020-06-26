@@ -42,9 +42,6 @@ extra_css:
 extra_javascript:
     - assets/custom.js
 
-extra:
-    repo_icon: gitlab
-
 markdown_extensions:
     - admonition # block-styled side content like warnings
     - codehilite: # code highlighting
