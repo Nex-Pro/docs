@@ -1,8 +1,6 @@
-FROM alpine
+FROM python
 
 WORKDIR /root
 ADD requirements.txt /root
 
-RUN \
-apk add git python3 py3-pip && \
-python3 -m pip install -r requirements.txt
+RUN python3 -m pip install -r requirements.txt
