@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.10.1 - June 27, 2020
+
+-   **Added scripts to market app** which will include lots of fun things soon
+-   **Removed P shortcut** that used to take a snapshot
+-   **Enabled autoplay** for audio or videos on web entities
+-   **Shaders won't be applied** to other entities anymore
+-   When downloading assets, **user agent will include `TivoliCloudVR/<version>`**
+
+Changes to the **launcher**
+
+-   Added **"Remove all settings" button** to reset Tivoli settings
+-   **Fixed Windows installation failing** when changing install path
+-   **Fixed copy and pasting** on macOS
+
 ## 0.10.0 - June 24, 2020
 
 **This is the first public release of Tivoli!
