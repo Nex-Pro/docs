@@ -16,6 +16,7 @@ nav:
           - worlds/uploading-assets.md
           - worlds/host-a-world-advanced.md
     - Avatars:
+          - avatars/avatar-packager.md
           - avatars/avatar-standards.md
     - Scripts:
           - scripts/get-started.md
