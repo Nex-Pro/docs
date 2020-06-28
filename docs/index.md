@@ -126,6 +126,8 @@ More formally, you can contact us via email at [support@tivolicloud.com](mailto:
 ## Recommended pages
 
 -   [Changelog](changelog)
+-   Avatars
+    -   [Tivoli's Unity avatar exporter](avatars/unity-avatar-exporter)
 -   Worlds
     -   [Uploading assets with Tivoli](worlds/uploading-assets)
 -   Scripts
