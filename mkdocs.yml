@@ -18,6 +18,8 @@ nav:
     - Avatars:
           - avatars/unity-avatar-exporter.md
           - avatars/avatar-standards.md
+    - Models:
+          - models/custom-materials.md
     - Scripts:
           - scripts/get-started.md
     - Shaders:
