@@ -1,9 +1,10 @@
 # Changelog
 
-## 0.10.2 - June 4, 2020
+## 0.10.2 - July 4, 2020
 
 -   Fully fixed bug where **anyone could edit unlocked entities**
     -   You don't have to lock your entities anymore to avoid griefing
+    -   Update your server to make sure that it's in effect
 -   **Completely recreated chat** with emojis, images, commands and join/leave messages
 -   Button to pick **your avatar from your Tivoli files** in the avatar app
 
