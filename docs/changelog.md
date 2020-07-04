@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.10.3 - July 4, 2020
+
+-   Fixed **accidental right mouse clicking** on the chat when moving the camera
+
+Changes to the **launcher**
+
+-   **Tray icon works properly** now on Windows
+-   **Launcher will open** when you run it again
+-   Fixed changelog tab
+
 ## 0.10.2 - July 4, 2020
 
 -   Fully fixed bug where **anyone could edit unlocked entities**
