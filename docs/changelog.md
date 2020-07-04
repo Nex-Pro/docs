@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.10.2 - June 4, 2020
+
+-   Fully fixed bug where **anyone could edit unlocked entities**
+    -   You don't have to lock your entities anymore to avoid griefing
+-   **Completely recreated chat** with emojis, images, commands and join/leave messages
+-   Button to pick **your avatar from your Tivoli files** in the avatar app
+
+Smaller changes to **interface**
+
+-   Disabled the shader cache **which was causing crashes** for some people
+-   Hopefully fixed not being in **first person when in vr**
+
+Changes to the **launcher**
+
+-   Tivoli now has a **tray icon** so you don't close interface as easily
+-   **Disabled "Waiting at the launcher..."** Discord rich presence
+-   Ability to set additional environment variables in developer menu
+
 ## 0.10.1 - June 27, 2020
 
 -   **Added scripts to market app** which will include lots of fun things soon
