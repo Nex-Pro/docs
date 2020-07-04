@@ -27,6 +27,7 @@ nav:
     - ""
     - API Reference: "https://apidocs.tivolicloud.com"
     - Roadmap: "https://roadmap.tivolicloud.com"
+    - Legacy Docs: "https://docs.highfidelity.com"
 
 theme:
     name: material
