@@ -7,7 +7,7 @@ This guide is currently the only way to host a Tivoli world.
 You will need:
 
 -   a little bit of knowledge of how **Docker** works
--   a machine with any distribution of **Linux 64 bit** installed
+-   a machine with any distribution of **Linux 64 bit, x86_64 or arm64v8**
 
 ## 1. Install Docker and Docker Compose
 
