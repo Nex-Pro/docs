@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.10.4 - July 11, 2020
+
+Tivoli server will now run on arm64 such as **Raspberry Pi** and **Android!**
+
+-   Added **new overview** accessible by **holding down tab**
+    -   Will show **where you are**, **players nearby**, **ping** and **draw calls**
+-   When joining a world, you'll now **appear at the correct location**
+-   Audio from **web entities** now **output through your selected device**
+-   **Maximum texture size** is now set to **8192 x 8192**
+-   **Audio menu** was reorganized
+
 ## 0.10.3 - July 4, 2020
 
 -   Fixed **accidental right mouse clicking** on the chat when moving the camera
