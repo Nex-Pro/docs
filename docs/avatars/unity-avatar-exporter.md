@@ -10,7 +10,7 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
 2. Launch (or install) the current LTS version of [Unity](https://unity3d.com/get-unity/download) and create or open a project with your avatar inside.
 
-3. Import the .unitypackage with **Edit > Import Package**. Once installed, you'll see a menu item called **Tivoli Cloud VR** on your menu bar.
+3. Import the **.unitypackage** by drag and dropping into assets or with **Assets > Import Package > Custom Package**. Once installed, you'll see a menu item called **Tivoli Cloud VR** on your menu bar.
 
     ![Tivoli Cloud VR menu item](unity-avatar-exporter/tivoli-unity-exporter-1.jpg)
 
