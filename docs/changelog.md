@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.10.5 - July 16, 2020
+
+The **auto updater will not work** for this version!
+<br>
+Download **Tivoli** from **[https://tivolicloud.com](https://tivolicloud.com)**
+<br>
+We're sorry for the inconvenience
+
+-   Changed the **default world** to **Squirrel Nut Cafe**
+-   Added **background and animations** to chat
+-   Fixed **joined/left without usernames** in chat
+-   Fixed **low resolution textures**
+-   Added **unlimited FPS** option in graphics which is default
+-   **Disabled vsync** to decrease input latency
+-   Renamed performance menu to **graphics menu**
+-   Added **F11** shortcut to **toggle fullscreen**
+-   Shadows are now enabled by default
+-   And another fix... Make sure to **update your server!** <span style="font-size: 0.6em">...expect the **audio to sound better**...</span>
+
 ## 0.10.4 - July 11, 2020
 
 Tivoli server will now run on arm64 such as **Raspberry Pi** and **Android!**

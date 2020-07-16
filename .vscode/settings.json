@@ -4,6 +4,7 @@
 	"cSpell.words": [
 		"autoplay",
 		"distro",
+		"fullscreen",
 		"lynden",
 		"mbps",
 		"metaverse",
@@ -11,6 +12,7 @@
 		"skybox",
 		"supersampling",
 		"tivolicloud",
-		"unitypackage"
+		"unitypackage",
+		"vsync"
 	]
 }
