@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.11.0 - July 27, 2020
+
+**AMD graphics cards now work which won't crash on startup anymore!**<br>
+I'm so happy because this has been an annoying bug stopping people from even trying Tivoli.
+This bug fix also applies to macOS users with AMD gpus.
+
+-   Fixed **online users disappearing** in explore
+-   Fixed **scrolling in explore** when in VR
+-   Updated **mic bar to be horizontal** so it's more obvious when you're muted or not
+-   Added **"Import Entities from URL"** to the create menu
+-   Added **keyboard shortcut for reconnecting** using <kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+-   Fixed **audio crackling for arm64 servers** such as Raspberry Pi
+-   Disabled crashy context menu appearing in any web overlay or entity
+
+Changes to **in-world chat**
+
+-   **Links and images** are now **clickable** when focused
+-   Added **/me** command to talk in third person
+-   Fixed **scrolling** through the chat history
+-   Unfortunately chat is **not compatible** with **0.10.5 or older**
+
 ## 0.10.5 - July 16, 2020
 
 The **auto updater will not work** for this version!
