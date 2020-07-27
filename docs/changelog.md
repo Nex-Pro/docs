@@ -4,7 +4,11 @@
 
 **AMD graphics cards now work which won't crash on startup anymore!**<br>
 I'm so happy because this has been an annoying bug stopping people from even trying Tivoli.
-This bug fix also applies to macOS users with AMD gpus.
+~~This bug fix also applies to macOS users with AMD gpus.~~
+
+Edit 1: The AMD bug is not fixed on macOS and we're really sorry. More research will be done as soon as possible.
+
+Edit 2: THE **INVISIBLE AVATAR BUG IS FIXED!** For the few people whose avatar wasn't coming through, it's now fixed!
 
 -   Fixed **online users disappearing** in explore
 -   Fixed **scrolling in explore** when in VR
