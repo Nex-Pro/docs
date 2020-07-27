@@ -4,7 +4,7 @@
 
 **AMD graphics cards now work which won't crash on startup anymore!**<br>
 I'm so happy because this has been an annoying bug stopping people from even trying Tivoli.
-~~This bug fix also applies to macOS users with AMD gpus.~~
+<strike>This bug fix also applies to macOS users with AMD gpus.</strike>
 
 Edit 1: The AMD bug is not fixed on macOS and we're really sorry. More research will be done as soon as possible.
 
