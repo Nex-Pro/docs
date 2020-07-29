@@ -151,10 +151,10 @@ This part is a **little messy and that will change**. We're still in alpha and h
 
 -   **Linking the server correctly with the world**:
 
-    -   You will now find yourself in the admin panel. In the **settings** page at the very top:<br />![](setup-1.jpg)
+    -   You will now find yourself in the admin panel. In the **settings** page at the very top:<br />![](host-a-world-advanced/setup-1.jpg)
     -   Expand **"Advanced Settings"** and click **"Choose from my worlds"**. Only one world will be available.
-    -   Click **"Save and restart"**:<br />![](setup-2.png)
-    -   After the page has reloaded, you will now find:<br />![](setup-3.png)
+    -   Click **"Save and restart"**:<br />![](host-a-world-advanced/setup-2.png)
+    -   After the page has reloaded, you will now find:<br />![](host-a-world-advanced/setup-3.png)
 
     -   **Automatic Networking** must be set to either:
 

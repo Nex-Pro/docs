@@ -16,7 +16,7 @@ Create **folders to organize your content**
 
 Upload assets such as: **3D models, images, scripts, audio** and more.
 
-![My Files](my-files.png)
+![My Files](uploading-assets/my-files.png)
 
 Right mouse click on a file or folder to bring up it's context menu.
 
@@ -26,4 +26,4 @@ If your username is **User**, the link to the model below would be **`https://fi
 
 You can **create as many folders as you want**. An example URL would be **`https://files.tivolicloud.com/user/worlds/my-garden/pretty-flowers/cosmos.gltf`**
 
-![My Files context menu](my-files-context-menu.png)
+![My Files context menu](uploading-assets/my-files-context-menu.png)
