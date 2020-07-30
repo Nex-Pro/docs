@@ -13,6 +13,7 @@ nav:
     - changelog.md
     - ""
     - Worlds:
+          - worlds/blender-tools.md
           - worlds/uploading-assets.md
           - worlds/host-a-world-advanced.md
     - Avatars:
