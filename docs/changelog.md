@@ -1,5 +1,9 @@
 # Changelog
 
+Download Tivoli here:
+<br>
+[https://tivolicloud.com/download](https://tivolicloud.com/download)
+
 ## 0.11.0 - July 27, 2020
 
 **AMD graphics cards now work which won't crash on startup anymore!**<br>
