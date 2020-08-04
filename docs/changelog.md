@@ -4,6 +4,23 @@ Download Tivoli here:
 <br>
 [https://tivolicloud.com/download](https://tivolicloud.com/download)
 
+## 0.12.0 - August 4, 2020
+
+-   Added **Squirrel Nut Cafe** content to the game files so it loads **instantly**. Never wait ever again!
+-   Added **antialiasing settings** to the graphics menu with: **None, TAA or FXAA**
+-   Added **nametags toggle** to graphics. Snap app can now also **temporarily disable** them
+-   Added **more properties to entities** like, opacity, text font/effect, billboard mode and web input mode
+-   Added **/tts** and **/ttstoggle** to chat which currently only works on Windows
+-   Added **lock icon to window title** when in a **private world**
+    <br><br>
+-   Updated **SteamVR/OpenVR** with 2 years of updates which may help with **Valve Index** or **Pimax**
+-   Updated **Oculus VR** as well which may improve performance
+-   **Experimental Linux VR** support with **SteamVR/OpenVR**
+    <br><br>
+-   Unlimited FPS has been updated to **Display-based FPS** so you don't render more than necessary
+-   It's now possible to **load urls relatively** when **importing entities from JSON**. The [blender tools](blender-tools/host-a-world) are now much easier to use
+-   Fixed loading external QML with `tablet.loadQMLSource`
+
 ## 0.11.0 - July 27, 2020
 
 **AMD graphics cards now work which won't crash on startup anymore!**<br>
