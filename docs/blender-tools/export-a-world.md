@@ -1,16 +1,16 @@
-# Tivoli Blender Tools Add-on
+# Export a world
 
 With Tivoli's **Blender Tools add-on**, you can build complete Tivoli worlds from inside the [Blender](<[Blender](https://www.blender.org/)>) application and export it as a scene consisting of a **JSON** file, all model entities, and optional **webp** texture conversion. There is also a (highly experimental) lightmapping system which can bake and generate lightmaps that are automatically applied to the models in your scene. The tools support Blender 2.8, and have been tested up to 2.8.3.
 
 ## Install the Tivoli Blender Tools add-on
 
 1. [Download the Tivoli Blender Tools add-on](https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases) .zip file from our GitLab. Select the relevant version depending on your operating system. You do not need to download the source files.
-   ![Download add-on file](blender-tools/blender-tools-download-link.png)
+   ![Download add-on file](export-a-world/blender-tools-download-link.png)
 2. Launch (or install) the current LTS version of [Blender](https://blender.org/download).
 3. In Blender, select **Edit > Preferences** and click the **Add-ons** tab on the left.
 4. Press the **Install** button and select the add-on .zip file you downloaded in **Step 1**.
 5. Check the **checkbox** next to the add-on to activate it
-   ![Check the checkbox](blender-tools/blender-tools-install-addon.png)
+   ![Check the checkbox](export-a-world/blender-tools-install-addon.png)
 
 ## Using the Tivoli Blender Tools add-on JSON exporter
 
@@ -18,7 +18,7 @@ With Tivoli's **Blender Tools add-on**, you can build complete Tivoli worlds fro
 2. Press the **n** key to open Blender's sidebar panel.
 3. Click the **Tivoli** tab on the sidebar panel.
 
-    ![Click the add-on tab](blender-tools/add-on-tab.png)
+    ![Click the add-on tab](export-a-world/add-on-tab.png)
 
 4. Paste or type the path to the folder where the scene will be hosted. If using ** Tivoli Files**, you can create an empty folder and copy its URL.
 5. Save the scene and press **Export scene to JSON** button. A new folder is generated next to the .blend file with the exported models, textures and JSON file.

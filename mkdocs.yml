@@ -12,8 +12,10 @@ nav:
     - index.md
     - changelog.md
     - ""
+    - Blender Tools:
+          - blender-tools/changelog.md
+          - blender-tools/export-a-world.md
     - Worlds:
-          - worlds/blender-tools.md
           - worlds/uploading-assets.md
           - worlds/host-a-world-advanced.md
     - Avatars:
