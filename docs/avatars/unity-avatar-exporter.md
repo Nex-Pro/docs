@@ -36,6 +36,16 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
     ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-6.jpg)
 
+5.  Optionally, you can map your avatar's **blendshapes** to our naming convention. Locate your avatar's **.fst file** and open it in a text editor. At the bottom of the file, add these lines:
+
+```ini
+bs = JawOpen = vrc.v_aa = 1
+bs = EyeBlink_L = vrc.blink_left = 1
+bs = EyeBlink_R = vrc.blink_right = 1
+```
+
+This will map blendshape `vrc.v_aa` (VRChat) to `JawOpen` (Tivoli). Change `vrc.v_aa` to the name of your "open mouth" blendshape. You can find all of our blendshapes at our [avatar standards](avatar-standards.md) page.
+
 ## Upload your avatar to Tivoli files and wear it
 
 !!! info
