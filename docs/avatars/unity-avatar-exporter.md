@@ -42,7 +42,7 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
     Your Tivoli account includes free file hosting, which you can access from **Apps > My Files**. You can host your avatar or other assets for use in your virtual world.
 
-1. Log in to your Tivoli Cloud VR account in your web browser at [tivolicloud.com](tivolicloud.com).
+1. Log in to your Tivoli Cloud VR account in your web browser at [tivolicloud.com](https://tivolicloud.com).
 
 2. Click **Apps** and select **My Files**.
 
