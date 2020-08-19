@@ -6,7 +6,7 @@ Download Tivoli here:
 
 ## 0.13.1 - August 19, 2020
 
-Fixed **crucial rendering and framerate** bugs.<br>
+Fixed **critical rendering and framerate** bugs.<br>
 Occlusion with GLTF sadly won't work again.
 
 Sorry for the inconvenience.
