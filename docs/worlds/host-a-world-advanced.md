@@ -67,6 +67,8 @@ services:
         image: registry.tivolicloud.com/tivolicloud/interface/server:latest
         network_mode: host
         restart: always
+        logging:
+            driver: none
         volumes:
             - ./my-world:/root/.local/share/Tivoli Cloud VR
         environment:
