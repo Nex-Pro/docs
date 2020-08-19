@@ -4,6 +4,57 @@ Download Tivoli here:
 <br>
 [https://tivolicloud.com/download](https://tivolicloud.com/download)
 
+## 0.13.0 - August 18, 2020
+
+Yay, a new version of Tivoli! This version has lots of updates!
+
+There's a **protocol change!** You'll have to update your server(s).
+
+Changes to **interface create tools**:
+
+-   Added **transparent background** property to web entities
+-   Added **clone grabbable** property to all entities
+-   Added button to **teleport your avatar** to selected entities
+-   As well as **teleport selected entities** to your avatar
+    <br>
+-   **Occlusion textures** should now import with GLTF models
+-   Hopefully **fixed some crashes** whilst using the create tools
+
+Changes to the **launcher**:
+
+-   **World server** is now available for **Windows** in the launcher!<br>
+    Enable under **"Settings > General > Enable local world server"**
+-   Added **"Open Tivoli interface"** to the tray menu
+-   When updates fail, there's now a fallback button to manually download
+
+Changes to the **scripting API**:
+
+-   Added **`Camera.disableLookAt`** which will let your camera rotate with your avatar
+-   Added **`About.platform`** which returns `"Tivoli Cloud VR"` for interoperability with forks
+-   Added new **[Chat](https://apidocs.tivolicloud.com/Chat.html)** namespace where you can add your own commands _(yay for cli!)_
+
+Changes to **interface chat**:
+
+-   Added **text to speech** support to **Linux** with `festival`
+-   **Don't speak urls** when they're in your message
+-   Added **new line support** with <kbd>Shift</kbd> + <kbd>Enter</kbd>
+
+General changes to **interface**:
+
+-   You should be able to **grab things with two hands** in VR again
+-   Fixed **H264 with WebRTC** for livestreaming on Windows
+-   Lowered **minimum Linux** distro to **Ubuntu 18.04**
+-   Updated explore so **only compatible protocols** appear
+-   Added experimental **"Developer > Tivoli Options > Bypass Script Engine Throttling"** which can possibly speed up scripts
+-   Fixed bug where web entities had access to your microphone in order to fix audio not coming through Oculus headsets. **Microphone and camera permission will always be strictly requested and never automatically allowed.**
+
+General fixes to **interface**:
+
+-   Fixed bug where some **entities randomly don't render**
+-   Fixed **entities showing in-world** when they're **meant to be gone**
+-   Fixed some AMD issues. **Display-based FPS** will now use **60 FPS minimum**
+-   Fixed toolbar/tablet button labels not showing the correct font
+
 ## 0.12.0 - August 4, 2020
 
 -   Added **Squirrel Nut Cafe** content to the game files so it loads **instantly**. Never wait ever again!
