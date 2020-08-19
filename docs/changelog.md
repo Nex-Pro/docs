@@ -4,6 +4,13 @@ Download Tivoli here:
 <br>
 [https://tivolicloud.com/download](https://tivolicloud.com/download)
 
+## 0.13.1 - August 19, 2020
+
+Fixed **crucial rendering and framerate** bugs.<br>
+Occlusion with GLTF sadly won't work again.
+
+Sorry for the inconvenience.
+
 ## 0.13.0 - August 18, 2020
 
 Yay, a new version of Tivoli! This version has lots of updates!
