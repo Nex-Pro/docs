@@ -101,16 +101,7 @@ Feel free to **duplicate the service for as many worlds as you want**. However, 
 
 If you add more than one server, **you must update the port numbers** defined in the environment array. Usually we go up in increments of 10 but you can set them to whatever you like.
 
-## 3. Firewall or router port forwarding
-
-If you're using a server from **DigitalOcean** or any other cloud provider, you must make sure the ports defined in your `docker-compose.yml` are externally available to the world.
-
-**We recommend allowing ports, TCP and UDP**:
-
--   `40100-40110`
--   `48000-48010`
-
-## 4. Starting, restarting, stopping and updating
+## 3. Starting, restarting, stopping and updating
 
 Docker Compose is really awesome for running Docker containers. This is all super easy.
 
@@ -131,7 +122,7 @@ There are some Docker commands you might want to know as well:
 
 Check the servers' logs and if there are no errors, it is running!
 
-## 5. Connecting your server to a Tivoli world
+## 4. Connecting your server to a Tivoli world
 
 This part is a **little messy and that will change**. We're still in alpha and have major redesigning to do from the old server admin panel.
 
@@ -166,9 +157,14 @@ This part is a **little messy and that will change**. We're still in alpha and h
         -   **None**: Where you specify a static external IP address and port.
             -   **Network Address:Port** or **Network Port** must be set accordingly. The port is set to `HIFI_DOMAIN_SERVER_PORT` which is usually `40102` (+2 from the admin panel HTTP port)
 
+        If **Automatic Networking** is **not set** to **Full**, you'll have to make sure that these ports are open on your firewall or router for **TCP and UDP**:
+
+        -   `40100-40110`
+        -   `48000-48010`
+
 Now that those settings have been set, everything should work!
 
-## 6. Installation complete!
+## 5. Installation complete!
 
 You can now find your world in [https://tivolicloud.com/user/worlds](https://tivolicloud.com/user/worlds) which should indicate that there are **0 users**. If it says **Offline**, then something went wrong.
 
