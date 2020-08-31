@@ -23,7 +23,7 @@ Changes to the **scripting API**:
 -   Added [`btoa`](https://apidocs.tivolicloud.com/global.html#btoa) and [`atob`](https://apidocs.tivolicloud.com/global.html#atob) to convert **text to base64 and back**.
 -   Added [`request`](https://apidocs.tivolicloud.com/global.html#request) to make **easier HTTP requests** than using XMLHttpRequest
 -   Added [`Chat.messageReceived`](https://apidocs.tivolicloud.com/Chat.html#.messageReceived) signal
--   Enabled [`Test`](https://apidocs.tivolicloud.com/Test.html) namespaces which has always been available
+-   Enabled [`Test`](https://apidocs.tivolicloud.com/Test.html) namespace which has always been available
 
 ## 0.13.1 - August 19, 2020
 
