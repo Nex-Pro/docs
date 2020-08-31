@@ -1,9 +1,5 @@
 # Changelog
 
-Download Tivoli here:
-<br>
-[https://tivolicloud.com/download]
-
 ## 0.13.2 - August 31, 2020
 
 General changes to **interface**:
