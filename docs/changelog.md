@@ -2,7 +2,32 @@
 
 Download Tivoli here:
 <br>
-[https://tivolicloud.com/download](https://tivolicloud.com/download)
+[https://tivolicloud.com/download]
+
+## 0.13.2 - August 31, 2020
+
+General changes to **interface**:
+
+-   **Zone culling works now!** and can be used in your worlds
+-   **Disabled all smoothing** for trackers and controllers in VR
+-   Fixed **Valve Index not detecting SteamVR trackers** - [thanks Fluffy](https://git.tivolicloud.com/tivolicloud/interface/-/commit/52b35576b0efb19096f7a1fe0d3764c1088ae0d1)
+-   When loading worlds, **your avatar won't be stuck as long** as before
+-   **Parenting entities to your avatar** is not as laggy anymore - [thanks HifiExperiments](https://git.tivolicloud.com/tivolicloud/interface/-/commit/d52c15329e7f2ba1409a537346975695cb215157)
+-   Fixed lag when you start Tivoli with a scaled avatar - [thanks HifiExperiments](https://git.tivolicloud.com/tivolicloud/interface/-/commit/ee756f12b444492b71e490d85bc61485a55b6316)
+
+Changes to **interface chat**:
+
+-   You can **select text** now and a **scrollbar** has been added
+-   Use **up and down arrows** to view your own **chat history**
+-   When **sending URLs** you'll see **info about the site**, for example: YouTube video title and description or thumbnail of an Instagram image
+-   Added <kbd>/</kbd> shortcut to **open chat with a command** and moved stats menu to <kbd>F3</kbd>
+
+Changes to the **scripting API**:
+
+-   Added [`btoa`](https://apidocs.tivolicloud.com/global.html#btoa) and [`atob`](https://apidocs.tivolicloud.com/global.html#atob) to convert **text to base64 and back**.
+-   Added [`request`](https://apidocs.tivolicloud.com/global.html#request) to make **easier HTTP requests** than using XMLHttpRequest
+-   Added [`Chat.messageReceived`](https://apidocs.tivolicloud.com/Chat.html#.messageReceived) signal
+-   Enabled [`Test`](https://apidocs.tivolicloud.com/Test.html) namespaces which has always been available
 
 ## 0.13.1 - August 19, 2020
 
