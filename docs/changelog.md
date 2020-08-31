@@ -6,8 +6,10 @@ General changes to **interface**:
 
 -   **Zone culling works now!** and can be used in your worlds
 -   **Disabled all smoothing** for trackers and controllers in VR
--   Fixed **Valve Index not detecting SteamVR trackers** - [thanks Fluffy](https://git.tivolicloud.com/tivolicloud/interface/-/commit/52b35576b0efb19096f7a1fe0d3764c1088ae0d1)
 -   When loading worlds, **your avatar won't be stuck as long** as before
+-   Optimizations to **render pipeline**, things should **feel snappier now**
+-   Fixed bug causing **certain entities** to **intermittently not render**
+-   Fixed **Valve Index not detecting SteamVR trackers** - [thanks Fluffy](https://git.tivolicloud.com/tivolicloud/interface/-/commit/52b35576b0efb19096f7a1fe0d3764c1088ae0d1)
 -   **Parenting entities to your avatar** is not as laggy anymore - [thanks HifiExperiments](https://git.tivolicloud.com/tivolicloud/interface/-/commit/d52c15329e7f2ba1409a537346975695cb215157)
 -   Fixed lag when you start Tivoli with a scaled avatar - [thanks HifiExperiments](https://git.tivolicloud.com/tivolicloud/interface/-/commit/ee756f12b444492b71e490d85bc61485a55b6316)
 
