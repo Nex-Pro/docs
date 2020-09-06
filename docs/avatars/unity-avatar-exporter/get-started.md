@@ -1,4 +1,4 @@
-# Tivoli's Unity avatar exporter
+# How to get started
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ywNXxd35Lzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,27 +6,27 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
 ## Download and install the avatar exporter in Unity
 
-1. [Download the Tivoli Avatar Exporter](https://git.tivolicloud.com/tivolicloud/unity-avatar-exporter/-/releases) .unitypackage from our GitLab.
+1. [Download the Tivoli Avatar Exporter](https://git.tivolicloud.com/tivolicloud/get-started/-/releases) .unitypackage from our GitLab.
 
 2. Launch (or install) the current LTS version of [Unity](https://unity3d.com/get-unity/download) and create or open a project with your avatar inside.
 
 3. Import the **.unitypackage** by drag and dropping into assets or with **Assets > Import Package > Custom Package**. Once installed, you'll see a menu item called **Tivoli Cloud VR** on your menu bar.
 
-    ![Tivoli Cloud VR menu item](unity-avatar-exporter/tivoli-unity-exporter-1.jpg)
+    ![Tivoli Cloud VR menu item](get-started/tivoli-unity-exporter-1.jpg)
 
 ## Prepare and configure your avatar
 
 1.  Make sure the materials' shaders are set to either **unlit** or **standard**. The **unlit** shader is better for flat, cartoon style artwork, and **standard** for realistic PBR rendering.
 
-    ![Set material shaders to Unlit or Standard](unity-avatar-exporter/tivoli-unity-exporter-2.jpg)
+    ![Set material shaders to Unlit or Standard](get-started/tivoli-unity-exporter-2.jpg)
 
 2.  Select the avatar's model in the project panel. In the Inspector window, animation properties will appear. Press the **Rig** tab, then set **Animation Type** to **Humanoid**, and press **Configure**.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-4.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-4.jpg)
 
 3.  The **Avatar Mapping** panel will appear. Click the **Pose** dropdown and choose **Enforce T-Pose**. Press **Apply** and **Done**.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-5-b.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-5-b.jpg)
 
     !!! warning
 
@@ -34,7 +34,7 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
 4.  Select your avatar model in the project panel, then select **Tivoli Cloud VR > Export Avatar** from the menu bar. Give your avatar project a name in the **Export project name** and choose a good default scale for your avatar using the **Scale** slider. This is the size your avatar will appear when you load into a new world.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-6.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-6.jpg)
 
 5.  Optionally, you can map your avatar's **blendshapes** to our naming convention. Locate your avatar's **.fst file** and open it in a text editor. At the bottom of the file, add these lines:
 
@@ -56,19 +56,19 @@ This will map blendshape `vrc.v_aa` (VRChat) to `JawOpen` (Tivoli). Change `vrc.
 
 2. Click **Apps** and select **My Files**.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-7.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-7.jpg)
 
 3. Press the **Create Folder** button, click **Upload** and drag in the files created by the exporter.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-8.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-8.jpg)
 
 4. Right click the **avatar.fst** file and choose **Copy URL to clipboard**.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-9.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-9.jpg)
 
 5. Launch Tivoli and click the **Avatar** button on your tablet or toolbar. Press the **Update Avatar URL** button, paste the URL, and press Update to wear it.
 
-    ![Set rig and animation type](unity-avatar-exporter/tivoli-unity-exporter-10.jpg)
+    ![Set rig and animation type](get-started/tivoli-unity-exporter-10.jpg)
 
 !!! info
 

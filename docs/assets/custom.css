@@ -74,7 +74,7 @@
 
 @media (min-width: 1220px) {
 	.md-nav__item a[title="None"] {
-		margin: 16px 0;
+		margin: 12px 0;
 		/* border-bottom: solid 2px rgba(29, 31, 33, 0.2); */
 	}
 }

@@ -15,16 +15,23 @@ nav:
     - Blender Tools:
           - blender-tools/changelog.md
           - blender-tools/export-a-world.md
+    - ""
     - Worlds:
           - worlds/uploading-assets.md
           - worlds/host-a-world-advanced.md
+    - ""
     - Avatars:
-          - avatars/unity-avatar-exporter.md
+          - Unity Avatar Exporter:
+                - avatars/unity-avatar-exporter/get-started.md
+                - avatars/unity-avatar-exporter/changelog.md
           - avatars/avatar-standards.md
+    - ""
     - Models:
           - models/custom-materials.md
+    - ""
     - Scripts:
           - scripts/get-started.md
+    - ""
     - Shaders:
           - shaders/shader-api-reference.md
     - ""
