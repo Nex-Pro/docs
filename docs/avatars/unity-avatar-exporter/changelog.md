@@ -12,6 +12,8 @@ Download the Tivoli Unity Avatar Exporter here:
 
 -   **Autodesk interactive** shader works as well now. It was originally called **Standard (Roughness setup)** but the rename broke the exporter.
 
+-   When exporting, the **scale slider** works now with locales that use comma as the decimal separator, for example: Germany, Belgium, etc.
+
 -   Added **double sided faces** toggle when exporting. Unfortunately Unity doesn't let you enable it per material but it's an export option for now. It's disabled by default.
 
     ![Double sided faces](changelog/double-sided-faces.png)
