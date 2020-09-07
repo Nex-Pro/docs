@@ -6,7 +6,7 @@ These instructions explain how to prepare an avatar in Unity, upload it to Tivol
 
 ## Download and install the avatar exporter in Unity
 
-1. [Download the Tivoli Avatar Exporter](https://git.tivolicloud.com/tivolicloud/get-started/-/releases) .unitypackage from our GitLab.
+1. [Download the Tivoli Avatar Exporter](https://git.tivolicloud.com/tivolicloud/unity-avatar-exporter/-/releases) .unitypackage from our GitLab.
 
 2. Launch (or install) the current LTS version of [Unity](https://unity3d.com/get-unity/download) and create or open a project with your avatar inside.
 
