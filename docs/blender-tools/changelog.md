@@ -4,6 +4,16 @@ Download the Tivoli Blender Tool here:
 <br>
 [https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases](https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases)
 
+## 1.1.1 - September 15, 2020
+
+-   When exporting your avatar as **unlit**, it will now use the **emission** color or image from **Principled BSDF**
+
+-   Added **fix bone rotations** and disabled force/clear t-pose for now as it's not necessary and broken
+
+    ![Fix bone rotations](changelog/fix-bone-rotations.png)
+
+-   Fixed bug when exporting your avatar, where it should use **Principled BSDF** connected from the **Material output**
+
 ## 1.1.0 - August 4, 2020
 
 -   When **exporting your scene to JSON, you don't need to enter your export URL** anymore. **Tivoli 0.12.0** can automatically figure out the assets next to the exported JSON.
