@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.14.0 - September 20, 2020
+
+This update has some changes that make **Tivoli feel a lot faster!** The two most important are:
+
+-   You can now **immediately move around** when you join a world. There's a **"ghosting"** property for **zone entities** where you can disable this.
+-   Assets are now **cached to the disk** so you **don't have to download everything every time**. You can resize or move it's location in the new settings menu.
+
+We can't wait for you to try it and let us know what you think!
+
+General changes to **interface**:
+
+-   Added **new settings menu** which is going to unify everything together! It's still work in progress and doesn't include everything yet, but it already has some new settings.
+-   Added **nametag settings** where you can customize your display name or set your pronouns.
+-   Enabled **SL style inspect** by default. Hold <kbd>Alt</kbd> and right mouse click to look around.
+-   Disabled **loading things** at the bottom of the screen since the caching and ghosting makes it feel unnecessary.
+
+Changes to **entities**:
+
+-   Fixed **blendshapes for glTF** - [thanks ctrlaltdavid](https://git.tivolicloud.com/tivolicloud/interface/-/commit/f1d0652402a714d289144a7aa63f2f03e878d64b)
+-   Added **"none"** to **web entity input modes** which won't capture any user input.
+-   Hopefully the create tools might crash less.
+
+Changes to **chat**:
+
+-   You can **send code in chat** by wrapping your message like this **&#96;&#96;&#96;console.log("Hi!")&#96;&#96;&#96;**
+
+Changes to the **scripting API**:
+
+-   Added [`Reticle.enabled`](https://apidocs.tivolicloud.com/Reticle.html#.enabled) variable
+-   Added [`Chat.messageSent`](https://apidocs.tivolicloud.com/Chat.html#.messageSent) signal
+
+Bug fixes to **interface**:
+
+-   Flipped laptop touch pad controls to feel more natural.
+-   Disabled drag and dropping files into the window to upload to atp which kept happening by accident.
+-   Fixed bug where overview overlay (hold <kbd>Tab</kbd>) could accidentally capture all input.
+-   Fixed bug where nametags could block your input.
+
+Tivoli is now also available on the **Arch User Repository** under [`tivoli-cloud-vr-bin`](https://aur.archlinux.org/packages/tivoli-cloud-vr-bin)
+
 ## 0.13.2 - August 31, 2020
 
 General changes to **interface**:
