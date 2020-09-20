@@ -28,8 +28,8 @@ Changes to **chat**:
 
 Changes to the **scripting API**:
 
--   Added [`Reticle.enabled`](https://apidocs.tivolicloud.com/Reticle.html#.enabled) variable
--   Added [`Chat.messageSent`](https://apidocs.tivolicloud.com/Chat.html#.messageSent) signal
+-   Added **[`Reticle.enabled`](https://apidocs.tivolicloud.com/Reticle.html#.enabled)** variable
+-   Added **[`Chat.messageSent`](https://apidocs.tivolicloud.com/Chat.html#.messageSent)** signal
 
 Bug fixes to **interface**:
 
@@ -38,7 +38,7 @@ Bug fixes to **interface**:
 -   Fixed bug where overview overlay (hold <kbd>Tab</kbd>) could accidentally capture all input.
 -   Fixed bug where nametags could block your input.
 
-Tivoli is now also available on the **Arch User Repository** under [`tivoli-cloud-vr-bin`](https://aur.archlinux.org/packages/tivoli-cloud-vr-bin)
+Tivoli is now also available on the **Arch User Repository** under **[`tivoli-cloud-vr-bin`](https://aur.archlinux.org/packages/tivoli-cloud-vr-bin)**
 
 ## 0.13.2 - August 31, 2020
 
@@ -62,10 +62,10 @@ Changes to **interface chat**:
 
 Changes to the **scripting API**:
 
--   Added [`btoa`](https://apidocs.tivolicloud.com/global.html#btoa) and [`atob`](https://apidocs.tivolicloud.com/global.html#atob) to convert **text to base64 and back**.
--   Added [`request`](https://apidocs.tivolicloud.com/global.html#request) to make **easier HTTP requests** than using XMLHttpRequest
--   Added [`Chat.messageReceived`](https://apidocs.tivolicloud.com/Chat.html#.messageReceived) signal
--   Enabled [`Test`](https://apidocs.tivolicloud.com/Test.html) namespace which has always been available
+-   Added **[`btoa`](https://apidocs.tivolicloud.com/global.html#btoa)** and **[`atob`](https://apidocs.tivolicloud.com/global.html#atob)** to convert **text to base64 and back**.
+-   Added **[`request`](https://apidocs.tivolicloud.com/global.html#request)** to make **easier HTTP requests** than using XMLHttpRequest
+-   Added **[`Chat.messageReceived`](https://apidocs.tivolicloud.com/Chat.html#.messageReceived)** signal
+-   Enabled **[`Test`](https://apidocs.tivolicloud.com/Test.html)** namespace which has always been available
 
 ## 0.13.1 - August 19, 2020
 
