@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.14.2 - September 23, 2020
+
+**Using Tivoli on macOS with an AMD graphics card is now fixed!**
+
+If you were having problems with you Mac, this version may likely work. If not, please let us know so we can try to figure out the issue.
+
+Other changes:
+
+-   Reverted laptop touch pad controls update from 0.14.0
+
 ## 0.14.1 - September 21, 2020
 
 This is a very small patch where:
