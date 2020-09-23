@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.14.1 - September 21, 2020
+
+This is a very small patch where:
+
+-   The **world server has been fixed** and you can now update
+-   Increased physics network update speed for smoother physics
+
 ## 0.14.0 - September 20, 2020
 
 This update has some changes that make **Tivoli feel a lot faster!** The two most important are:
