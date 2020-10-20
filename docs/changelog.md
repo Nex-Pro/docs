@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.15.0 - October 20, 2020
+
+There's a **server protocol change!** You'll have to update your world(s).
+
+<img style="height: 120px" src="/assets/tea.svg"/>
+
+**tea:// protocol is now available!**
+
+-   Please try it out and let us know what you think! You can copy **tea:// links from your Tivoli files** or select an avatar from the avatar app.
+
+**Performance updates** that make things feel faster!:
+
+-   Improved performance of **entity updates** - [thanks HifiExperiments](https://github.comkasenvr/project-athena/pull/276)
+-   Improved performance of **pick rays** significantly
+-   Local entities get **higher priority updates** now
+-   VR hand lasers also get **higher priority updates**
+-   Added an option to set **maximum texture memory** in graphics settings
+
+Other changes to **interface**:
+
+-   **Avatar entities** are working a lot better now so we can do attachments!
+-   Static entities are converted to automatic when cloned
+-   Added open in external browser to in-world browser (<kbd>CTRL</kbd> + <kbd>B</kbd>) - thanks ctrlaltdavid
+
+Bug fixes to **interface**:
+
+-   Fixed a crash **when switching audio output**
+-   Fixed bug where **procedural shaders** get applied to other entities
+-   Added **login/logout buttons** when not using the launcher
+-   Removed **"customTags"** which were all over the entities json
+-   Avatar URL was moved to another more reliable packet
+-   Removed old graphics menu
+
 ## 0.14.2 - September 23, 2020
 
 **Using Tivoli on macOS with an AMD graphics card is now fixed!**
@@ -30,7 +63,7 @@ General changes to **interface**:
 
 -   Added **new settings menu** which is going to unify everything together! It's still work in progress and doesn't include everything yet, but it already has some new settings.
 -   Added **nametag settings** where you can customize your display name or set your pronouns.
--   Enabled **SL style inspect** by default. Hold <kbd>Alt</kbd> and right mouse click to look around.
+-   Enabled **SL style insProtocol changepect** by default. Hold <kbd>Alt</kbd> and right mouse click to look around.
 -   Disabled **loading things** at the bottom of the screen since the caching and ghosting makes it feel unnecessary.
 
 Changes to **entities**:
