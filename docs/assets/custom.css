@@ -68,12 +68,12 @@
 	font-size: 0.8rem; which is regular text size. default: 0.7rem
 } */
 
-.md-nav__item a[title="None"] {
+.md-nav--primary .md-nav__item a.hidden {
 	font-size: 0;
 }
 
 @media (min-width: 1220px) {
-	.md-nav__item a[title="None"] {
+	.md-nav--primary .md-nav__item a.hidden {
 		margin: 12px 0;
 		/* border-bottom: solid 2px rgba(29, 31, 33, 0.2); */
 	}

@@ -5,3 +5,7 @@ if (window.innerWidth >= 1220) {
 			if (el.checked == false) el.click();
 		});
 }
+
+document.querySelectorAll(".md-nav--primary .md-nav__item a").forEach(el => {
+	if (el.textContent.trim() == "None") el.className += " hidden";
+});
