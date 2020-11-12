@@ -120,7 +120,14 @@ There are some Docker commands you might want to know as well:
 -   `docker rmi` **removes an image** such as an old version of Tivoli server.
 -   `docker ps` **shows all running docker containers**.
 
-Check the servers' logs and if there are no errors, it is running!
+Check the servers' logs and if there are no errors, it's running!
+
+If you want to update your servers, run these commands:
+
+```bash
+docker-compose pull
+docker-compose up -d
+```
 
 ## 4. Connecting your server to a Tivoli world
 
