@@ -8,17 +8,34 @@ jobs:
         name: Build and deploy
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout
+            - name: Check out the repo
               uses: actions/checkout@v2
               with:
                   fetch-depth: 0
-            - name: Build
-              uses: ./. # TODO: don't build every time
+
+            - name: Cache requirements
+              # id: cache
+              uses: actions/cache@v2
               with:
-                  args: mkdocs build -d public
+                  path: ~/.cache/pip
+                  key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+                  restore-keys: ${{ runner.os }}-pip-
+
+            - name: Install system dependencies
+              run: sudo apt-get install python3-setuptools python3-wheel
+
+            - name: Install requirements
+              # if: steps.cache.outputs.cache-hit != 'true'
+              run: python3 -m pip install -r requirements.txt
+
+            - name: Build docs
+              shell: bash
+              run: python3 -m mkdocs build -d public
+
             - name: Deploy to GitHub Pages
               uses: JamesIves/github-pages-deploy-action@3.7.1
               with:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   BRANCH: gh-pages
                   FOLDER: public
+                  SINGLE_COMMIT: true
