@@ -159,15 +159,23 @@ This part is a **little messy and that will change**. We're still in alpha and h
 
     -   **Automatic Networking** must be set to either:
 
-        -   **Full**: **Recommended** as this **doesn't require port forwarding**. It will automatically establish a connection using the ICE protocol.
+        -   **Full**: This **doesn't require port forwarding**. It will automatically establish a connection using the ICE protocol.
+
+            !!! warning
+
+                Whilst this is really convenient, keep in mind that **this can cause connection problems**. It's **much more reliable to port forward** and use the below instead.
+
         -   **IP Only**: Just specify the port and it will work as a free DNS.
         -   **None**: Where you specify a static external IP address and port.
+
             -   **Network Address:Port** or **Network Port** must be set accordingly. The port is set to `HIFI_DOMAIN_SERVER_PORT` which is usually `40102` (+2 from the admin panel HTTP port)
 
-        If **Automatic Networking** is **not set** to **Full**, you'll have to make sure that these ports are open on your firewall or router for **TCP and UDP**:
+            !!! info
 
-        -   `40100-40110`
-        -   `48000-48010`
+                If **Automatic Networking is not set to full**, you'll have to make sure that these ports are open on your firewall or router for **TCP and UDP**:
+
+                -   `40100-40110`
+                -   `48000-48010`
 
 Now that those settings have been set, everything should work!
 
