@@ -15,7 +15,7 @@ If you're using **Ubuntu** (from the official docs [Docker](https://docs.docker.
 
 ```bash
 sudo apt-get update -y
-sudo apt-get install -y curl python3-pip
+sudo apt-get install -y curl python3-pip libffi-dev
 # docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
