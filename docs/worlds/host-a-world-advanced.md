@@ -61,7 +61,7 @@ Write a new file **inside the folder** using your favorite text editor:
 
 **`docker-compose.yml`**
 
-```yml
+```yaml
 version: "3.6"
 services:
     my-world:
@@ -72,7 +72,10 @@ services:
             driver: none
         volumes:
             - ./my-world:/root/.local/share/Tivoli Cloud VR
+            - /var/run/docker.sock:/var/run/docker.sock
         environment:
+            - AUTO_UPDATE_TIME=00:00
+
             - HIFI_DOMAIN_SERVER_HTTP_PORT=40100
             - HIFI_DOMAIN_SERVER_HTTPS_PORT=40101
             - HIFI_DOMAIN_SERVER_PORT=40102
@@ -88,7 +91,7 @@ services:
 
 Rename every instance of `my-world` with the name of your world.
 
-```yml
+```yaml
 volumes:
     - ./my-world:/root/.local/share/Tivoli Cloud VR
 ```
@@ -96,6 +99,17 @@ volumes:
 This part of the config explains that Docker should **mount the folder `my-world`** inside of your working folder **to the server configuration files**.
 
 Please make sure there's **only one volume mounted per server**. This folder must be kept safe.
+
+```yaml
+volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+environment:
+    - AUTO_UPDATE_TIME=00:00
+```
+
+In this part of the config, **auto updating is enabled** which checks for updates **every day at 00:00**. The volume mount indicates that the server can communicate with the host's Docker. The environment flag can be set to any hour and minute of the day. **To disable auto updating**, remove both the volume mount and environment flag.
+
+---
 
 Feel free to **duplicate the service for as many worlds as you want**. However, remember that the server software can be heavy to run if there are many people connected.
 
