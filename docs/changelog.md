@@ -1,5 +1,47 @@
 # Changelog
 
+## 0.16.0 - December 4, 2020
+
+It's been 2 months since the last update. Thank you for waiting so patiently. There are some exciting changes in this version! Starting with the...
+
+**Initial release of the things app** where you can find all kinds of **avatars**, **scripts** and **entities!** Currently maintained on the [things repo on our GitLab](https://git.tivolicloud.com/tivolicloud/things), it'll replace the market app for now. When tea:// content protection and inventory are implemented, we can start working on a real marketplace in the future.
+
+General changes to **interface**:
+
+-   Updated **position and rotation of tablet** when opening it in VR
+-   Added **horizontal field of view** to the graphics settings. Default has changed from **80 to 90** degrees.
+-   Added **time and date tooltip** to chat messages
+-   Added **"allows anonymous users"** warning in **explore menu**
+-   Added **reconnect button** to the **explore menu** which is slightly faster now
+
+Changes to **entities**:
+
+-   Added **linear interpolation to animations** on model entities so you can smoothly play them at a sloooooow speeeed
+-   Added **billboard mode** to shape entities. Use in **user data** with **`{"billboardMode": "yaw"}`**
+-   Added **3D side by side support** to web entities. Use in **user data** with **`{"sbs": true}`**
+-   Fixed **boolean uniforms for procedural shaders**
+-   Fixed **material names in glTF** which was a problem when using **`materialMap`** in an **`.fst`** file
+-   Added support for **metallic, roughness and emissive to multiply its texture**. This makes models more compliant to the glTF spec. _Hooray no more fully metallic glTF models!_
+
+Changes to **scripting**:
+
+-   Fixed **loading scripts with tea://**
+-   Added **TIVOLI_SCRIPT_DEBUG** environment flag which adds a **Script Debug** menu
+-   Added **local file change detection** to bust script cache - [thanks humbletim](https://github.com/kasenvr/project-athena/pull/848)
+-   Fixed **`enterEntity` not firing** after content reload - [thanks ctrlaltdavid](https://git.tivolicloud.com/tivolicloud/interface/-/commit/5f3e0eb3f306206eb4c8e9d0f100893cba0a7fa3)
+-   Fixed **[`Selection`](https://apidocs.tivolicloud.com/Selection.html) API** which fixes outlines in the create tools
+
+Changes to the **world server**:
+
+-   Added **spawn radius** which you can set in **Content > Paths**
+-   Added **auto updating**. Find out how to enable it on [the worlds hosting guide](https://docs.tivolicloud.com/worlds/host-a-world-advanced/#2-structuring-your-configuration)
+-   Improved **server Docker image** from **2.1 GB to 1.1 GB**
+
+Others **changes**:
+
+-   Added **Spacemouse** support for **Linux** with [included example script](https://git.tivolicloud.com/tivolicloud/interface/-/blob/main/plugins/spacemouse-linux-plugin/spacemouseCamera.js)
+-   Updated to **Qt 5.15.1**
+
 ## 0.15.0 - October 20, 2020
 
 There's a **server protocol change!** You'll have to update your world(s).
