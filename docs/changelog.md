@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.16.1 - December 8, 2020
+
+A small patch with some good changes!
+
+-   Possibly **fixed the create tools crashes!** Together with **controller scripts**, we separated them to different threads which seems to resolve many crashes
+-   Fixed the **macOS version**. Qt 5.15.1 had introduced an unexpected bug
+-   Changed the **default field of view** to **120 degrees** horizontal
+-   Fixed some issues with **metallic and roughness** being ignored for **fbx models**
+-   When connecting to IP addresses instead of worlds, properly reset the title bar
+
 ## 0.16.0 - December 4, 2020
 
 It's been 2 months since the last update. Thank you for waiting so patiently. There are some exciting changes in this version! Starting with the...
