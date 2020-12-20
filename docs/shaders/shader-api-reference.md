@@ -67,6 +67,7 @@ struct ProceduralFragment {
     float metallic;
     float occlusion;
     float scattering;
+    bool unlit;
 };
 
 // this function is required when you specify version 3
