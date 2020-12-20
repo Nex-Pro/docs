@@ -9,7 +9,7 @@
 
 Graphics changes:
 
--   Dramatically **improved ambient occlusion**, check out our [Discord's devlog](https://discord.com/channels/587365150512906240/655506274510962699/789939198491885588)
+-   Dramatically **improved ambient occlusion** and added it to the graphics settings
 -   Added **far clip** to the graphics settings and in the API as [`Render.farClip`](https://apidocs.tivolicloud.com/Render.html#.farClip)
 -   Added **unlit** to [procedural fragment shaders](/shaders/shader-api-reference)
 
