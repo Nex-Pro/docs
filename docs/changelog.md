@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.16.2 - December 20, 2020
+
+-   Updated to **Qt 5.15.2** which **fixes the recent web related crashes**
+-   Avatars will **properly save** when selected from the **things app**
+-   Your cursor will **update with web entities/overlays** when in desktop
+-   When **selecting a file**, it'll now use the **native system file picker**
+
+Graphics changes:
+
+-   Dramatically **improved ambient occlusion**, check out our [Discord's devlog](https://discord.com/channels/587365150512906240/655506274510962699/789939198491885588)
+-   Added **far clip** to the graphics settings and in the API as [`Render.farClip`](https://apidocs.tivolicloud.com/Render.html#.farClip)
+-   Added **unlit** to [procedural fragment shaders](/shaders/shader-api-reference)
+
+Other fixes:
+
+-   Fixed the **things app randomly zooming in** when in VR
+-   Fixed the **tab menu accidentally appearing** on launch
+-   Fixed **"Find an avatar here!" button** in the avatar app
+-   Fixed **URLs in chat when pasting** them from the new Microsoft Edge
+
 ## 0.16.1 - December 8, 2020
 
 A small patch with some good changes!
