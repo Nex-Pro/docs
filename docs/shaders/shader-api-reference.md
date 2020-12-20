@@ -56,7 +56,7 @@ uniform float myCustomNumber = 10;
 uniform vec3 myCustomColor = vec3(1,0,0);
 
 // these are the values you have access to in getProceduralFragment
-// you don't need to copy and paste this into your file
+// do not copy and paste this into your file
 struct ProceduralFragment {
     vec3 normal;
     vec3 diffuse;
