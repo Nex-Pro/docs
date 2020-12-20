@@ -44,7 +44,7 @@ Changes to **scripting**:
 Changes to the **world server**:
 
 -   Added **spawn radius** which you can set in **Content > Paths**
--   Added **auto updating**. Find out how to enable it on [the worlds hosting guide](https://docs.tivolicloud.com/worlds/host-a-world-advanced/#2-structuring-your-configuration)
+-   Added **auto updating**. Find out how to enable it on [the worlds hosting guide](/worlds/host-a-world-advanced/#2-structuring-your-configuration)
 -   Improved **server Docker image** from **2.1 GB to 1.1 GB**
 
 Others **changes**:
