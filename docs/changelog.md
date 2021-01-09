@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.17.0 - January 9, 2020
+## 0.17.0 - January 9, 2021
 
 **Happy new year from everyone at Tivoli!** 🎉🎈
 
