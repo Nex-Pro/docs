@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.17.1 - January 9, 2021
+
+A very small patch that **fixes the Ready Player Me avatar creator** available in the things app.
+
 ## 0.17.0 - January 9, 2021
 
 **Happy new year from everyone at Tivoli!** 🎉🎈
