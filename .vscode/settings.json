@@ -2,21 +2,28 @@
 	"cSpell.enabled": true,
 	"cSpell.enableFiletypes": ["markdown"],
 	"cSpell.words": [
+		"ambisonic",
 		"antialiasing",
+		"assimp",
 		"autoplay",
 		"blendshape",
 		"blendshapes",
+		"brotli",
 		"bsdf",
 		"crashy",
 		"devlog",
 		"distro",
+		"flac",
 		"fullscreen",
 		"fxaa",
 		"gltf",
 		"grabbable",
+		"humbletim",
 		"laggier",
 		"laggy",
+		"libsndfile",
 		"livestreaming",
+		"losslessly",
 		"lynden",
 		"mbps",
 		"metaverse",
@@ -29,6 +36,7 @@
 		"supersampling",
 		"tivolicloud",
 		"unitypackage",
-		"vsync"
+		"vsync",
+		"webm"
 	]
 }

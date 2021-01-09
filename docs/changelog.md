@@ -1,5 +1,54 @@
 # Changelog
 
+## 0.17.0 - January 9, 2020
+
+**Happy new year from everyone at Tivoli!** 🎉🎈
+
+This update is an exciting start to the year with some courageous new features.
+
+The biggest feature today is the addition of [**assimp**](https://github.com/assimp/assimp), a **multi-format 3D model importing** library!
+
+-   **glTF models now use assimp** and support **armatures!**
+    -   This means we can use the **Ready Player Me avatar creator** which will be available for testing in the **things app**. Please try it out! It may not work well in VR yet.
+    -   A couple things may still be broken such as animations, joints and vertex colors
+    -   Draco decompression will be support soon which is already available in Blender
+-   Assimp will **automatically optimize 3D models** when importing, in ways such as:
+    -   **Joining identical vertices** to reduce draw calls and GPU memory
+    -   **Find identical meshes and instance them** which will reduce GPU memory and work
+    -   **Splitting large meshes** every 1 million vertices/faces to optimize large meshes
+    -   **Improve cache locality** which will optimize rendering on modern hardware
+-   Lots of **other 3D file formats** are supported too now, such as:<br>
+    .3ds, .blend (2.79, soon 2.9), .dae, .ply, .stl, and many [more available here](https://github.com/assimp/assimp/blob/master/doc/Fileformats.md)
+
+Another feature is the addition of [**libsndfile**](https://github.com/libsndfile/libsndfile), a **multi-format audio parsing** library!
+
+-   Lots of **audio file formats** are supported now such as:<br>
+    .mp3, .ogg, .flac, .aiff and [more available here](https://github.com/libsndfile/libsndfile/blob/v1.0.30/src/command.c#L122)
+-   **All .wav files are supported now** so no need to export with exact settings
+-   **.mp3 files** don't have the **annoying crackling** sound anymore!
+-   It's now possible to **use flac for losslessly compressed ambisonic sound**
+
+Then we have two lovely updates from **FluffyJenkins** and **Humbletim**:
+
+-   **The secondary camera has new properties** on [`Camera`](https://apidocs.tivolicloud.com/Camera.html) such as `parentID`, `parentJointIndex`, `localPosition`, `locationRotation`
+-   **Enhancements to avatar parenting** adds new properties to [`MyAvatar`](https://apidocs.tivolicloud.com/MyAvatar.html) such as `localPosition`, `localRotation`, `localVelocity` and more
+-   All of these changes are little contributions to getting vehicles to work! Thank you~ ❤️
+
+General changes to **interface**:
+
+-   Added **show self for nametags** in the graphics settings
+-   Added **brotli decompression** to http and tea requests
+    -   If you upload a `.br` or `.gz` file to Tivoli files, accessing it through the url without the compressed extension will serve the compressed version if available.
+-   Made sure the **settings menu is correctly scaled in VR**
+
+Changes to **chat**:
+
+-   Added **text to speech for macOS**
+-   Added **/tp command** to teleport to people in-world
+-   Made sure the **time/date of messages** always appear
+-   Added **video embedding** to chat when you post .mp4 or .webm urls
+-   **Improved scrolling** through the chat history
+
 ## 0.16.2 - December 20, 2020
 
 -   Updated to **Qt 5.15.2** which **fixes the recent web related crashes**
