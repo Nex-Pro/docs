@@ -34,8 +34,8 @@ Another feature is the addition of [**libsndfile**](https://github.com/libsndfil
 
 Then we have two lovely updates from **FluffyJenkins** and **Humbletim**:
 
--   **The secondary camera has new properties** on [**`Camera`**](https://apidocs.tivolicloud.com/Camera.html) such as `parentID`, `parentJointIndex`, `localPosition`, `locationRotation`
--   **Enhancements to avatar parenting** adds new properties to [**`MyAvatar`**](https://apidocs.tivolicloud.com/MyAvatar.html) such as `localPosition`, `localRotation`, `localVelocity` and more
+-   **New properties on the main [`Camera`](https://apidocs.tivolicloud.com/Camera.html)** such as `parentID`, `parentJointIndex`, `localPosition`, `locationRotation`
+-   **Enhancements to avatar parenting** adds new properties to **[`MyAvatar`](https://apidocs.tivolicloud.com/MyAvatar.html)** such as `localPosition`, `localRotation`, `localVelocity` and more
 -   All of these changes are little contributions to getting vehicles to work! Thank you~ ❤️
 
 General changes to **interface**:
