@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.17.2 - January 20, 2021
+
+-   **Fixed frequent crashes** related to assimp from the last update
+-   Added support for **embedding YouTube videos in chat**
+-   When **launching Tivoli for the first time**, it'll try to **guess your graphics settings**
+-   Improved **"Avatar from my Tivoli files"** in avatar app
+
+Updates to **models**:
+
+-   Fully **implemented vertex colors** on **glTF models**
+-   Fixed **unlit colors** using incorrect color space on **glTF models**
+-   Fixed **crash when loading empty animations** from **`animGraphURL`** in .fst files
+
+Updates to **scripting**:
+
+-   Added **[`MyAvatar.getAvatarPreviewImageURL()`](https://apidocs.tivolicloud.com/MyAvatar.html#.getAvatarPreviewImageURL)** which will return the url relative to the **`preview` property in .fst files**. Avatar previews will also show in the avatar app.
+-   Added **`locallyVisible`** as an **entity property** which lets your **hide or show entities locally**
+
 ## 0.17.1 - January 9, 2021
 
 A very small patch that **fixes the Ready Player Me avatar creator** available in the things app.
