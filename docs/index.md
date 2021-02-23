@@ -119,7 +119,7 @@ This is the **tablet** when using **VR** mode:
 
 If you need help or have questions, we're available on our <a href="https://tivolicloud.com/discord" target="_blank">Discord</a>
 
-If you have a suggestion or you found a bug, you can post it on our <a href="https://roadmap.tivolicloud.com" target="_blank">Roadmap</a>
+If you have a suggestion or you found a bug, you can post it on our <a href="https://git.tivolicloud.com/tivolicloud/interface/-/issues" target="_blank">git issues</a>
 
 More formally, you can contact us via email at [support@tivolicloud.com](mailto:support@tivolicloud.com).
 
@@ -127,7 +127,7 @@ More formally, you can contact us via email at [support@tivolicloud.com](mailto:
 
 -   [Changelog](changelog)
 -   Avatars
-    -   [Tivoli's Unity avatar exporter](avatars/unity-avatar-exporter)
+    -   [Tivoli's Unity avatar exporter](avatars/unity-avatar-exporter/get-started)
 -   Worlds
     -   [Uploading assets with Tivoli](worlds/uploading-assets)
 -   Scripts
