@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.17.3 - February 24, 2021
+
+-   Added **glTF draco decompression** support
+-   Updated the launcher's **crash dialog** which will help you reset your settings
+-   Disabled assimp logging, which caused a lot of crashing
+
 ## 0.17.2 - January 20, 2021
 
 -   **Fixed frequent crashes** related to assimp from the last update
