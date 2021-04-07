@@ -43,7 +43,7 @@ push to s3:
     stage: deploy
     image: alpine:latest
     variables:
-        S3_BUCKET: tivolicloud-docs
+        S3_BUCKET: docs.tivolicloud.com
         S3_REGION: us-east-1
         # AWS_ACCESS_KEY_ID
         # AWS_SECRET_ACCESS_KEY
