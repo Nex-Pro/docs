@@ -12,6 +12,9 @@ nav:
     - index.md
     - changelog.md
     - ""
+    - API Reference: "https://apidocs.tivolicloud.com"
+    - Legacy Docs: "https://legacydocs.tivolicloud.com"
+    - ""
     - Blender Tools:
           - blender-tools/changelog.md
           - blender-tools/export-a-world.md
@@ -34,10 +37,6 @@ nav:
     - ""
     - Shaders:
           - shaders/shader-api-reference.md
-    - ""
-    - API Reference: "https://apidocs.tivolicloud.com"
-    - Roadmap: "https://roadmap.tivolicloud.com"
-    - Legacy Docs: "https://legacydocs.tivolicloud.com"
 
 theme:
     name: material
