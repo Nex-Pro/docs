@@ -1,9 +1,10 @@
 stages:
+    - prebuild
     - build
     - deploy
 
 docker image:
-    stage: build
+    stage: prebuild
     image: docker:latest
 
     variables:
@@ -29,7 +30,16 @@ docker image:
 #         paths:
 #             - public
 
-build and push to s3:
+build:
+    stage: build
+    image: $CI_REGISTRY/tivolicloud/docs
+    script:
+        - mkdocs build -d public
+    artifacts:
+        paths:
+            - public
+
+push to s3:
     stage: deploy
     image: alpine:latest
     variables:
@@ -38,11 +48,12 @@ build and push to s3:
         # AWS_ACCESS_KEY_ID
         # AWS_SECRET_ACCESS_KEY
 
-    script:
-        # - apk add nodejs rclone aws-cli
-        - apk add nodejs rclone
+    needs:
+        - job: build
+          artifacts: true
 
-        - mkdocs build -d public
+    script:
+        - apk add rclone
 
         # init rclone config
         - mkdir -p ~/.config/rclone
