@@ -1,6 +1,6 @@
 stages:
     - prebuild
-    - build
+    # - build
     - deploy
 
 docker image:
@@ -21,8 +21,16 @@ docker image:
         - docker login $CI_REGISTRY -u gitlab-ci-token -p $CI_JOB_TOKEN
         - docker push $CI_REGISTRY/tivolicloud/docs:latest
 
-# pages:
-#     stage: deploy
+pages:
+    stage: deploy
+    image: $CI_REGISTRY/tivolicloud/docs
+    script:
+        - mkdocs build -d public
+    artifacts:
+        paths:
+            - public
+# build:
+#     stage: build
 #     image: $CI_REGISTRY/tivolicloud/docs
 #     script:
 #         - mkdocs build -d public
@@ -30,40 +38,31 @@ docker image:
 #         paths:
 #             - public
 
-build:
-    stage: build
-    image: $CI_REGISTRY/tivolicloud/docs
-    script:
-        - mkdocs build -d public
-    artifacts:
-        paths:
-            - public
+# push to s3:
+#     stage: deploy
+#     image: alpine:latest
+#     variables:
+#         S3_BUCKET: docs.tivolicloud.com
+#         S3_REGION: us-east-1
+#         # AWS_ACCESS_KEY_ID
+#         # AWS_SECRET_ACCESS_KEY
 
-push to s3:
-    stage: deploy
-    image: alpine:latest
-    variables:
-        S3_BUCKET: docs.tivolicloud.com
-        S3_REGION: us-east-1
-        # AWS_ACCESS_KEY_ID
-        # AWS_SECRET_ACCESS_KEY
+#     needs:
+#         - job: build
+#           artifacts: true
 
-    needs:
-        - job: build
-          artifacts: true
+#     script:
+#         - apk add rclone
 
-    script:
-        - apk add rclone
+#         # init rclone config
+#         - mkdir -p ~/.config/rclone
+#         - echo "[s3]" > ~/.config/rclone/rclone.conf
+#         - echo "type = s3" >> ~/.config/rclone/rclone.conf
+#         - echo "provider = AWS" >> ~/.config/rclone/rclone.conf
+#         - echo "env_auth = true" >> ~/.config/rclone/rclone.conf
+#         - echo "region = $S3_REGION" >> ~/.config/rclone/rclone.conf
+#         - echo "acl = private" >> ~/.config/rclone/rclone.conf
 
-        # init rclone config
-        - mkdir -p ~/.config/rclone
-        - echo "[s3]" > ~/.config/rclone/rclone.conf
-        - echo "type = s3" >> ~/.config/rclone/rclone.conf
-        - echo "provider = AWS" >> ~/.config/rclone/rclone.conf
-        - echo "env_auth = true" >> ~/.config/rclone/rclone.conf
-        - echo "region = $S3_REGION" >> ~/.config/rclone/rclone.conf
-        - echo "acl = private" >> ~/.config/rclone/rclone.conf
-
-        # upload content
-        - cd public
-        - rclone sync -P . s3:$S3_BUCKET
+#         # upload content
+#         - cd public
+#         - rclone sync -P . s3:$S3_BUCKET
