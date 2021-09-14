@@ -4,16 +4,16 @@
 	display: none;
 }
 
-.md-header .md-header-nav__topic:nth-child(1) {
+/* .md-header .md-header-nav__topic:nth-child(1) {
 	display: none;
 }
 
 .md-header .md-header-nav__topic {
 	width: auto !important;
 	display: inline-block;
-}
+} */
 
-.md-header .md-header-nav__title:before {
+.md-header .md-header__title:before {
 	content: " ";
 	display: inline-block;
 	width: 12.5rem;
