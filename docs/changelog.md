@@ -1,5 +1,50 @@
 # Changelog
 
+## Launcher 1.0.1 - September 20, 2021
+
+-   Added **custom interface installation path** in settings
+-   Added button to **open installed interface path** in settings
+-   Added dialog to help users remove the old launcher
+
+## Launcher 1.0.0 - September 17, 2021
+
+There are some **major updates** to the launcher that should make **logging in and updating really seamless** for everyone! It should be easier than ever to get started with Tivoli.
+
+-   **Signing in is now automatically done** using the browser.
+-   **The launcher** can now **auto-update** so quickly you might even miss it.
+-   **Interface** will also **auto-update** so quickly you might even miss it.
+
+_...all as fast as a fox!_ 🦊
+
+This new update will make it **1000 times easier for us to push out new updates!**
+
+Some other changes include:
+
+-   Added **versions section** in settings
+-   Added **search** to the world selector
+-   Updated to Electron 14 (coming from 8, gosh)
+
+## Interface 0.18.0 - September 17, 2021
+
+General updates:
+
+-   Tivoli will now **close a little bit faster**
+-   Added option **Settings > Disable Web Entities** (requires reconnect after toggle)
+-   When seated, **avatars won't rotate with the camera** anymore
+-   Updated the **API Reference** so legacy documentation links work again
+-   Updated OpenSSL to `1.1.1l` on Windows
+
+Bug fixes:
+
+-   Fixed **world server spawn orientation** (Tivoli uses xyzW, not Wxyz)
+-   Fixed **avatars not standing up whilst sitting** when changing worlds
+-   **Create tools grid** is now **more visible** and **doesn't get obscured**
+
+Updates to **scripting**:
+
+-   Added **[`MyAvatar.getBoomLength()`](https://apidocs.tivolicloud.com/MyAvatar.html#.getBoomLength)** for the third person camera
+-   Added **[`MyAvatar.setBoomLength(boomLength)`](https://apidocs.tivolicloud.com/MyAvatar.html#.setBoomLength)** to complement the above
+
 ## 0.17.3 - February 28, 2021
 
 -   Added **glTF draco decompression** support
