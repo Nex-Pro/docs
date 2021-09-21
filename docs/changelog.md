@@ -1,5 +1,9 @@
 # Changelog
 
+## Launcher 1.0.2 - September 20, 2021
+
+-   Fixed **signing in on Linux**
+
 ## Launcher 1.0.1 - September 20, 2021
 
 -   Added **custom interface installation path** in settings
