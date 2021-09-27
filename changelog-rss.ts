@@ -13,6 +13,7 @@ const feed = new Feed({
 	id: "https://docs.tivolicloud.com/changelog",
 	link: "https://docs.tivolicloud.com/changelog",
 	language: "en",
+	image: "https://docs.tivolicloud.com/assets/favicon.png",
 	copyright:
 		"Copyright © " +
 		new Date().getFullYear() +

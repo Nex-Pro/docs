@@ -26,7 +26,6 @@ pages:
     image: $CI_REGISTRY/tivolicloud/docs
     script:
         - mkdocs build -d public
-        - mv favicon.ico public/
         - deno run --allow-read --allow-write changelog-rss.ts
     artifacts:
         paths:
