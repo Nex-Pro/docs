@@ -1,5 +1,7 @@
 # Changelog
 
+[:material-rss: RSS feed](/changelog.xml)
+
 ## Launcher 1.0.2 - September 20, 2021
 
 -   Fixed **signing in on Linux**
