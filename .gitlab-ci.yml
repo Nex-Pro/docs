@@ -26,7 +26,8 @@ pages:
     image: $CI_REGISTRY/tivolicloud/docs
     script:
         - mkdocs build -d public
-        - deno run --allow-read --allow-write changelog-rss.ts
+        - deno run --unstable -A changelog-rss.ts "Changelog" docs/changelog.md
+        - deno run --unstable -A changelog-rss.ts "Blender Tools Changelog" docs/blender-tools/changelog.md
     artifacts:
         paths:
             - public

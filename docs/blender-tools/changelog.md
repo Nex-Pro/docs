@@ -4,6 +4,8 @@ Download the Tivoli Blender Tool here:
 <br>
 [https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases](https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases)
 
+[:material-rss: RSS feed](/blender-tools/changelog.xml)
+
 ## 1.1.1 - September 15, 2020
 
 -   When exporting your avatar as **unlit**, it will now use the **emission** color or image from **Principled BSDF**

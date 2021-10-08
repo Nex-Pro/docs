@@ -1,17 +1,36 @@
 import { Marked } from "https://deno.land/x/markdown@v2.0.0/mod.ts";
 import { Language, minify } from "https://deno.land/x/minifier@v1.1.1/mod.ts";
 import { Feed } from "https://cdn.skypack.dev/feed?dts";
+import { ensureDir } from "https://deno.land/std@0.110.0/fs/mod.ts";
+import { dirname } from "https://deno.land/std@0.110.0/path/mod.ts";
 
-const changelog = await Deno.readTextFile("./docs/changelog.md");
+if (Deno.args.length < 2) {
+	console.log("changelog-rss.ts <title> <markdown path>");
+	Deno.exit(1);
+}
+
+const [title, markdownPath] = Deno.args;
+
+if (!markdownPath.startsWith("docs/")) {
+	console.log("Markdown path must starts with docs/");
+	Deno.exit(1);
+}
+
+const urlPath = markdownPath.replace(/^[^]*docs\//, "/").replace(/\.md$/, "");
+const outputPath = markdownPath
+	.replace(/^[^]*docs\//, "public/")
+	.replace(/\.md$/, ".xml");
+
+const changelog = await Deno.readTextFile(markdownPath);
 
 const posts = changelog.replace(/\r\n/g, "\n").split(/## /g);
 posts.shift(); // remove everything above last release
 
 const feed = new Feed({
-	title: "Tivoli Cloud VR - Changelog",
-	description: "Release notes",
-	id: "https://docs.tivolicloud.com/changelog",
-	link: "https://docs.tivolicloud.com/changelog",
+	title: "Tivoli Cloud VR - " + title,
+	description: "Tivoli Cloud VR - " + title,
+	id: "https://docs.tivolicloud.com" + urlPath,
+	link: "https://docs.tivolicloud.com" + urlPath,
 	language: "en",
 	image: "https://docs.tivolicloud.com/assets/favicon.png",
 	copyright:
@@ -65,14 +84,11 @@ for (const post of posts) {
 	feed.addItem({
 		title,
 		id: slug,
-		link: "https://docs.tivolicloud.com/changelog/#" + slug,
+		link: "https://docs.tivolicloud.com" + urlPath + "/#" + slug,
 		content: contentHtmlMin,
 		date,
 	});
 }
 
-try {
-	await Deno.mkdir("./public");
-} catch (error) {}
-
-await Deno.writeTextFile("./public/changelog.xml", feed.rss2());
+await ensureDir(dirname(outputPath));
+await Deno.writeTextFile(outputPath, feed.rss2());
