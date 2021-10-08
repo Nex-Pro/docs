@@ -4,6 +4,8 @@ Download the Tivoli Unity Avatar Exporter here:
 <br>
 [https://git.tivolicloud.com/tivolicloud/unity-avatar-exporter/-/releases](https://git.tivolicloud.com/tivolicloud/unity-avatar-exporter/-/releases)
 
+[:material-rss: RSS feed](/avatars/unity-avatar-exporter/changelog.xml)
+
 ## 1.0.1 - September 6, 2020
 
 -   **Standard** shader works now!
