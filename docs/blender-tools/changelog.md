@@ -6,6 +6,28 @@ Download the Tivoli Blender Tool here:
 
 [:material-rss: RSS feed](/blender-tools/changelog.xml)
 
+## 1.2.0 - October 8, 2021
+
+-   Added **glTF export** when exporting as fst, which is enabled by default.
+
+-   Added **Animation tools** panel for baking vertex animations like cloth. It's still a bit experimental.
+
+-   WebP optimization is **disabled by default** because it's not always more efficient.
+
+Avatar tools:
+
+-   Added **ensure root bone** which will make sure **feet stay on the ground** in world. Yay, I hate this bug so much!
+-   **Add Tivoli armature** button will automatically have a **root bone** too.
+
+-   Added **Force T-Pose** and **Clear T-Pose** buttons back in
+
+-   Added **Add "glTF settings" node** button
+
+FBX Avatars:
+
+-   Improved `materialMap` generation when exporting
+-   Easily assign **unlit texture/color** with **Tivoli settings node** when exporting
+
 ## 1.1.1 - September 15, 2020
 
 -   When exporting your avatar as **unlit**, it will now use the **emission** color or image from **Principled BSDF**
