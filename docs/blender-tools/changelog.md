@@ -6,6 +6,10 @@ Download the Tivoli Blender Tool here:
 
 [:material-rss: RSS feed](/blender-tools/changelog.xml)
 
+## 1.2.1 - October 22, 2021
+
+-   Added **as .glb** to **glTF export** for avatars
+
 ## 1.2.0 - October 8, 2021
 
 -   Added **glTF export** when exporting as fst, which is enabled by default.
