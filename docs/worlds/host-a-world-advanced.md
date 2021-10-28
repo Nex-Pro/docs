@@ -64,18 +64,31 @@ Write a new file **inside the folder** using your favorite text editor:
 ```yaml
 version: "3.6"
 services:
+    # remove this service to disable auto updating
+    watchtower:
+        image: containrrr/watchtower:latest
+        restart: always
+        labels:
+            - com.centurylinklabs.watchtower.scope=tivoli-server
+        environment:
+            # check for updates at 4 am every day
+            - WATCHTOWER_SCHEDULE=0 0 4 * * *
+            - WATCHTOWER_CLEANUP=true
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /etc/localtime:/etc/localtime:ro
+
     my-world:
         image: registry.tivolicloud.com/tivolicloud/interface/server:latest
         network_mode: host
         restart: always
         logging:
             driver: none
+        labels:
+            - com.centurylinklabs.watchtower.scope=tivoli-server
         volumes:
             - ./my-world:/root/.local/share/Tivoli Cloud VR
-            - /var/run/docker.sock:/var/run/docker.sock
         environment:
-            - AUTO_UPDATE_TIME=00:00
-
             - HIFI_DOMAIN_SERVER_HTTP_PORT=40100
             - HIFI_DOMAIN_SERVER_HTTPS_PORT=40101
             - HIFI_DOMAIN_SERVER_PORT=40102
@@ -100,14 +113,18 @@ This part of the config explains that Docker should **mount the folder `my-world
 
 Please make sure there's **only one volume mounted per server**. This folder must be kept safe.
 
-```yaml
-volumes:
-    - /var/run/docker.sock:/var/run/docker.sock
-environment:
-    - AUTO_UPDATE_TIME=00:00
-```
+### Auto updating
 
-In this part of the config, **auto updating is enabled** which checks for updates **every day at 00:00**. The volume mount indicates that the server can communicate with the host's Docker. The environment flag can be set to any hour and minute of the day. **To disable auto updating**, remove both the volume mount and environment flag.
+At the top of the `docker-compose.yml` file, you'll see a service named `watchtower`. **It's responsible for auto updating your worlds.**
+
+For each world service running, you'll find a label named `com.centurylinklabs.watchtower.scope=tivoli-server`, which indicates that it should be registered with `watchtower` in order to get checked for updates.
+
+If you'd like to **completely remove auto updating, remove the `watchtower` service and labels** attached to each world:
+
+```yml
+labels:
+    - com.centurylinklabs.watchtower.scope=tivoli-server
+```
 
 ---
 
