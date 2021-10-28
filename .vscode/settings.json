@@ -44,5 +44,6 @@
 	"deno.unstable": true,
 	"deno.suggest.imports.hosts": {
 		"https://deno.land": true
-	}
+	},
+	"python.pythonPath": ".venv/bin/python"
 }

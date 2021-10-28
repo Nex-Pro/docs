@@ -57,13 +57,16 @@ extra_javascript:
 
 markdown_extensions:
     - admonition # block-styled side content like warnings
-    - codehilite: # code highlighting
-          guess_lang: false
     - toc: # table of content
           permalink: true
     - pymdownx.emoji:
           emoji_index: !!python/name:materialx.emoji.twemoji
           emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.highlight # code highlighting
+    - pymdownx.inlinehilite # code highlighting
+    - pymdownx.superfences # code highlighting
+    - pymdownx.snippets # code highlighting
+
 plugins:
     - search
     - git-revision-date-localized
