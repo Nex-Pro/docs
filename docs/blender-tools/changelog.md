@@ -4,7 +4,7 @@ Download the Tivoli Blender Tool here:
 <br>
 [https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases](https://git.tivolicloud.com/tivolicloud/blender-tools/-/releases)
 
-[:material-rss: RSS feed](/blender-tools/changelog.xml)
+[:material-rss: RSS feed](/docs/blender-tools/changelog.xml)
 
 ## 1.2.1 - October 22, 2021
 

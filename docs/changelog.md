@@ -1,6 +1,6 @@
 # Changelog
 
-[:material-rss: RSS feed](/changelog.xml)
+[:material-rss: RSS feed](/docs/changelog.xml)
 
 ## Launcher 1.0.2 - September 20, 2021
 
@@ -205,7 +205,7 @@ Others **changes**:
 
 There's a **server protocol change!** You'll have to update your world(s).
 
-<img style="height: 120px" src="/assets/tea.svg"/>
+<img style="height: 120px" src="/docs/assets/tea.svg"/>
 
 **tea:// protocol is now available!**
 

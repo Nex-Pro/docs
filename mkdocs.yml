@@ -1,10 +1,10 @@
 site_name: Tivoli Cloud VR Docs
 site_description: Documentation for Tivoli Cloud VR
 site_author: Tivoli Cloud VR
-site_url: https://docs.tivolicloud.com
+site_url: https://tivolicloud.github.io/docs
 
 repo_name: tivolicloud/docs
-repo_url: https://git.tivolicloud.com/tivolicloud/docs
+repo_url: https://github.com/tivolicloud/docs
 
 copyright: "Copyright &copy; 2020 Tivoli Cloud VR, Inc."
 
@@ -12,8 +12,8 @@ nav:
     - index.md
     - changelog.md
     - ""
-    - API Reference: "https://apidocs.tivolicloud.com"
-    - Legacy Docs: "https://legacydocs.tivolicloud.com"
+    - API Reference: "https://tivolicloud.github.io/apidocs"
+    - Legacy Docs: "https://tivolicloud.github.io/legacydocs"
     - ""
     - Blender Tools:
           - blender-tools/changelog.md
@@ -47,13 +47,12 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
-    logo: /assets/logo.svg
-    favicon: /assets/favicon.png
-    custom_dir: overrides
+    logo: /docs/assets/logo.svg
+    favicon: /docs/assets/favicon.png
 extra_css:
-    - /assets/custom.css
+    - /docs/assets/custom.css
 extra_javascript:
-    - /assets/custom.js
+    - /docs/assets/custom.js
 
 markdown_extensions:
     - admonition # block-styled side content like warnings
