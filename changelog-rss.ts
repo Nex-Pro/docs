@@ -29,10 +29,10 @@ posts.shift(); // remove everything above last release
 const feed = new Feed({
 	title: "Tivoli Cloud VR - " + title,
 	description: "Tivoli Cloud VR - " + title,
-	id: "https://docs.tivolicloud.com" + urlPath,
-	link: "https://docs.tivolicloud.com" + urlPath,
+	id: "https://tivolicloud.github.io/docs" + urlPath,
+	link: "https://tivolicloud.github.io/docs" + urlPath,
 	language: "en",
-	image: "https://docs.tivolicloud.com/assets/favicon.png",
+	image: "https://tivolicloud.github.io/docs/assets/favicon.png",
 	copyright:
 		"Copyright © " +
 		new Date().getFullYear() +
