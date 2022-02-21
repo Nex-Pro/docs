@@ -1,6 +1,6 @@
 # Tivoli docs
 
-https://docs.tivolicloud.com
+https://tivolicloud.github.io/docs
 
 <img height="150" src="https://sm.mashable.com/t/mashable_sea/photo/default/lofi-anime-girl-hip-hop-chilled-cow_4m7v.h720.jpg"/>
 
