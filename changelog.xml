@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Tivoli Cloud VR - Changelog</title>
+        <link>https://tivolicloud.github.io/docs/changelog</link>
+        <description>Tivoli Cloud VR - Changelog</description>
+        <lastBuildDate>Mon, 21 Feb 2022 05:35:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Tivoli Cloud VR - Changelog</title>
+            <url>https://tivolicloud.github.io/docs/assets/favicon.png</url>
+            <link>https://tivolicloud.github.io/docs/changelog</link>
+        </image>
+        <copyright>Copyright © 2022 Tivoli Cloud VR, Inc. All rights reserved.</copyright>
+        <item>
+            <title><![CDATA[Launcher 1.0.2 - September 20, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#launcher-102-september-20-2021</link>
+            <guid>launcher-102-september-20-2021</guid>
+            <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Fixed <strong>signing in on Linux</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Launcher 1.0.1 - September 20, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#launcher-101-september-20-2021</link>
+            <guid>launcher-101-september-20-2021</guid>
+            <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Added <strong>custom interface installation path</strong> in settings<li>Added button to <strong>open installed interface path</strong> in settings<li>Added dialog to help users remove the old launcher</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Launcher 1.0.0 - September 17, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#launcher-100-september-17-2021</link>
+            <guid>launcher-100-september-17-2021</guid>
+            <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>There are some <strong>major updates</strong> to the launcher that should make <strong>logging in and updating really seamless</strong> for everyone! It should be easier than ever to get started with Tivoli.<ul><li><strong>Signing in is now automatically done</strong> using the browser.<li><strong>The launcher</strong> can now <strong>auto-update</strong> so quickly you might even miss it.<li><strong>Interface</strong> will also <strong>auto-update</strong> so quickly you might even miss it.</ul><p><em>...all as fast as a fox!</em> 🦊<p>This new update will make it <strong>1000 times easier for us to push out new updates!</strong><p>Some other changes include:<ul><li>Added <strong>versions section</strong> in settings<li>Added <strong>search</strong> to the world selector<li>Updated to Electron 14 (coming from 8, gosh)</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Interface 0.18.0 - September 17, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#interface-0180-september-17-2021</link>
+            <guid>interface-0180-september-17-2021</guid>
+            <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>General updates:<ul><li>Tivoli will now <strong>close a little bit faster</strong><li>Added option <strong>Settings > Disable Web Entities</strong> (requires reconnect after toggle)<li>When seated, <strong>avatars won't rotate with the camera</strong> anymore<li>Updated the <strong>API Reference</strong> so legacy documentation links work again<li>Updated OpenSSL to <code>1.1.1l</code> on Windows</ul><p>Bug fixes:<ul><li>Fixed <strong>world server spawn orientation</strong> (Tivoli uses xyzW, not Wxyz)<li>Fixed <strong>avatars not standing up whilst sitting</strong> when changing worlds<li><strong>Create tools grid</strong> is now <strong>more visible</strong> and <strong>doesn't get obscured</strong></ul><p>Updates to <strong>scripting</strong>:<ul><li>Added <strong><a href=https://apidocs.tivolicloud.com/MyAvatar.html#.getBoomLength><code>MyAvatar.getBoomLength()</code></a></strong> for the third person camera<li>Added <strong><a href=https://apidocs.tivolicloud.com/MyAvatar.html#.setBoomLength><code>MyAvatar.setBoomLength(boomLength)</code></a></strong> to complement the above</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.17.3 - February 28, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0173-february-28-2021</link>
+            <guid>0173-february-28-2021</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Added <strong>glTF draco decompression</strong> support<li>Added <strong>world selector to launcher</strong> with a setting to always spawn at tutorial<li>Updated the <strong>launcher's crash dialog</strong> which will help you reset your settings<li>Disabled assimp logging, which caused <strong>a lot of crashing</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.17.2 - January 20, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0172-january-20-2021</link>
+            <guid>0172-january-20-2021</guid>
+            <pubDate>Wed, 20 Jan 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Fixed frequent crashes</strong> related to assimp from the last update<li>Added support for <strong>embedding YouTube videos in chat</strong><li>When <strong>launching Tivoli for the first time</strong>, it'll try to <strong>guess your graphics settings</strong><li>Improved <strong>"Avatar from my Tivoli files"</strong> in avatar app</ul><p>Updates to <strong>models</strong>:<ul><li>Fully <strong>implemented vertex colors</strong> on <strong>glTF models</strong><li>Fixed <strong>unlit colors</strong> using incorrect color space on <strong>glTF models</strong><li>Fixed <strong>crash when loading empty animations</strong> from <strong><code>animGraphURL</code></strong> in .fst files</ul><p>Updates to <strong>scripting</strong>:<ul><li>Added <strong><a href=https://apidocs.tivolicloud.com/MyAvatar.html#.getAvatarPreviewImageURL><code>MyAvatar.getAvatarPreviewImageURL()</code></a></strong> which will return the url relative to the <strong><code>preview</code> property in .fst files</strong>. Avatar previews will also show in the avatar app.<li>Added <strong><code>locallyVisible</code></strong> as an <strong>entity property</strong> which lets your <strong>hide or show entities locally</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.17.1 - January 9, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0171-january-9-2021</link>
+            <guid>0171-january-9-2021</guid>
+            <pubDate>Sat, 09 Jan 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>A very small patch that <strong>fixes the Ready Player Me avatar creator</strong> available in the things app.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.17.0 - January 9, 2021]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0170-january-9-2021</link>
+            <guid>0170-january-9-2021</guid>
+            <pubDate>Sat, 09 Jan 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Happy new year from everyone at Tivoli!</strong> 🎉🎈<p>This update is an exciting start to the year with some courageous new features.<p>The biggest feature today is the addition of <a href=https://github.com/assimp/assimp><strong>assimp</strong></a>, a <strong>multi-format 3D model importing</strong> library!<ul><li><strong>glTF models now use assimp</strong> and support <strong>armatures!</strong> <ul><li>This means we can use the <strong>Ready Player Me avatar creator</strong> which will be available for testing in the <strong>things app</strong>. Please try it out! It may not work well in VR yet.<li>A couple things may still be broken such as animations, joints and vertex colors<li>Draco decompression will be support soon which is already available in Blender</ul><li>Assimp will <strong>automatically optimize 3D models</strong> when importing, in ways such as: <ul><li><strong>Joining identical vertices</strong> to reduce draw calls and GPU memory<li><strong>Find identical meshes and instance them</strong> which will reduce GPU memory and work<li><strong>Splitting large meshes</strong> every 1 million vertices/faces to optimize large meshes<li><strong>Improve cache locality</strong> which will optimize rendering on modern hardware</ul><li>Lots of <strong>other 3D file formats</strong> are supported too now, such as:<br> .3ds, .blend (2.79, soon 2.9), .dae, .ply, .stl, and many <a href=https://github.com/assimp/assimp/blob/master/doc/Fileformats.md>more available here</a></ul><p>Another feature is the addition of <a href=https://github.com/libsndfile/libsndfile><strong>libsndfile</strong></a>, a <strong>multi-format audio parsing</strong> library!<ul><li>Lots of <strong>audio file formats</strong> are supported now such as:<br> .mp3, .ogg, .flac, .aiff and <a href=https://github.com/libsndfile/libsndfile/blob/v1.0.30/src/command.c#L122>more available here</a><li><strong>All .wav files are supported now</strong> so no need to export with exact settings<li><strong>.mp3 files</strong> don't have the <strong>annoying crackling</strong> sound anymore!<li>It's now possible to <strong>use flac for losslessly compressed ambisonic sound</strong></ul><p>Then we have two lovely updates from <strong>FluffyJenkins</strong> and <strong>Humbletim</strong>:<ul><li><strong>New properties on the main <a href=https://apidocs.tivolicloud.com/Camera.html><code>Camera</code></a></strong> such as <code>parentID</code>, <code>parentJointIndex</code>, <code>localPosition</code>, <code>locationRotation</code><li><strong>Enhancements to avatar parenting</strong> adds new properties to <strong><a href=https://apidocs.tivolicloud.com/MyAvatar.html><code>MyAvatar</code></a></strong> such as <code>localPosition</code>, <code>localRotation</code>, <code>localVelocity</code> and more<li>All of these changes are little contributions to getting vehicles to work! Thank you~ ❤️</ul><p>General changes to <strong>interface</strong>:<ul><li>Added <strong>show self for nametags</strong> in the graphics settings<li>Added <strong>brotli decompression</strong> to http and tea requests <ul><li>If you upload a <code>.br</code> or <code>.gz</code> file to Tivoli files, accessing it through the url without the compressed extension will serve the compressed version if available.</ul><li>Made sure the <strong>settings menu is correctly scaled in VR</strong></ul><p>Changes to <strong>chat</strong>:<ul><li>Added <strong>text to speech for macOS</strong><li>Added <strong>/tp command</strong> to teleport to people in-world<li>Made sure the <strong>time/date of messages</strong> always appear<li>Added <strong>video embedding</strong> to chat when you post .mp4 or .webm urls<li><strong>Improved scrolling</strong> through the chat history</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.16.2 - December 20, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0162-december-20-2020</link>
+            <guid>0162-december-20-2020</guid>
+            <pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Updated to <strong>Qt 5.15.2</strong> which <strong>fixes the recent web related crashes</strong><li>Avatars will <strong>properly save</strong> when selected from the <strong>things app</strong><li>Your cursor will <strong>update with web entities/overlays</strong> when in desktop<li>When <strong>selecting a file</strong>, it'll now use the <strong>native system file picker</strong></ul><p>Graphics changes:<ul><li>Dramatically <strong>improved ambient occlusion</strong> and added it to the graphics settings<li>Added <strong>far clip</strong> to the graphics settings and in the API as <a href=https://apidocs.tivolicloud.com/Render.html#.farClip><code>Render.farClip</code></a><li>Added <strong>unlit</strong> to <a href=/shaders/shader-api-reference>procedural fragment shaders</a></ul><p>Other fixes:<ul><li>Fixed the <strong>things app randomly zooming in</strong> when in VR<li>Fixed the <strong>tab menu accidentally appearing</strong> on launch<li>Fixed <strong>"Find an avatar here!" button</strong> in the avatar app<li>Fixed <strong>URLs in chat when pasting</strong> them from the new Microsoft Edge</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.16.1 - December 8, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0161-december-8-2020</link>
+            <guid>0161-december-8-2020</guid>
+            <pubDate>Tue, 08 Dec 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>A small patch with some good changes!<ul><li>Possibly <strong>fixed the create tools crashes!</strong> Together with <strong>controller scripts</strong>, we separated them to different threads which seems to resolve many crashes<li>Fixed the <strong>macOS version</strong>. Qt 5.15.1 had introduced an unexpected bug<li>Changed the <strong>default field of view</strong> to <strong>120 degrees</strong> horizontal<li>Fixed some issues with <strong>metallic and roughness</strong> being ignored for <strong>fbx models</strong><li>When connecting to IP addresses instead of worlds, properly reset the title bar</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.16.0 - December 4, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0160-december-4-2020</link>
+            <guid>0160-december-4-2020</guid>
+            <pubDate>Fri, 04 Dec 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>It's been 2 months since the last update. Thank you for waiting so patiently. There are some exciting changes in this version! Starting with the...<p><strong>Initial release of the things app</strong> where you can find all kinds of <strong>avatars</strong>, <strong>scripts</strong> and <strong>entities!</strong> Currently maintained on the <a href=https://git.tivolicloud.com/tivolicloud/things>things repo on our GitLab</a>, it'll replace the market app for now. When tea:// content protection and inventory are implemented, we can start working on a real marketplace in the future.<p>General changes to <strong>interface</strong>:<ul><li>Updated <strong>position and rotation of tablet</strong> when opening it in VR<li>Added <strong>horizontal field of view</strong> to the graphics settings. Default has changed from <strong>80 to 90</strong> degrees.<li>Added <strong>time and date tooltip</strong> to chat messages<li>Added <strong>"allows anonymous users"</strong> warning in <strong>explore menu</strong><li>Added <strong>reconnect button</strong> to the <strong>explore menu</strong> which is slightly faster now</ul><p>Changes to <strong>entities</strong>:<ul><li>Added <strong>linear interpolation to animations</strong> on model entities so you can smoothly play them at a sloooooow speeeed<li>Added <strong>billboard mode</strong> to shape entities. Use in <strong>user data</strong> with <strong><code>{"billboardMode": "yaw"}</code></strong><li>Added <strong>3D side by side support</strong> to web entities. Use in <strong>user data</strong> with <strong><code>{"sbs": true}</code></strong><li>Fixed <strong>boolean uniforms for procedural shaders</strong><li>Fixed <strong>material names in glTF</strong> which was a problem when using <strong><code>materialMap</code></strong> in an <strong><code>.fst</code></strong> file<li>Added support for <strong>metallic, roughness and emissive to multiply its texture</strong>. This makes models more compliant to the glTF spec. <em>Hooray no more fully metallic glTF models!</em></ul><p>Changes to <strong>scripting</strong>:<ul><li>Fixed <strong>loading scripts with tea://</strong><li>Added <strong>TIVOLI_SCRIPT_DEBUG</strong> environment flag which adds a <strong>Script Debug</strong> menu<li>Added <strong>local file change detection</strong> to bust script cache - <a href=https://github.com/kasenvr/project-athena/pull/848>thanks humbletim</a><li>Fixed <strong><code>enterEntity</code> not firing</strong> after content reload - <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/5f3e0eb3f306206eb4c8e9d0f100893cba0a7fa3>thanks ctrlaltdavid</a><li>Fixed <strong><a href=https://apidocs.tivolicloud.com/Selection.html><code>Selection</code></a> API</strong> which fixes outlines in the create tools</ul><p>Changes to the <strong>world server</strong>:<ul><li>Added <strong>spawn radius</strong> which you can set in <strong>Content > Paths</strong><li>Added <strong>auto updating</strong>. Find out how to enable it on <a href=/worlds/host-a-world-advanced/#2-structuring-your-configuration>the worlds hosting guide</a><li>Improved <strong>server Docker image</strong> from <strong>2.1 GB to 1.1 GB</strong></ul><p>Others <strong>changes</strong>:<ul><li>Added <strong>Spacemouse</strong> support for <strong>Linux</strong> with <a href=https://git.tivolicloud.com/tivolicloud/interface/-/blob/main/plugins/spacemouse-linux-plugin/spacemouseCamera.js>included example script</a><li>Updated to <strong>Qt 5.15.1</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.15.0 - October 20, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0150-october-20-2020</link>
+            <guid>0150-october-20-2020</guid>
+            <pubDate>Tue, 20 Oct 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>There's a <strong>server protocol change!</strong> You'll have to update your world(s).<p><img style="height: 120px"src=/docs/assets/tea.svg><p><strong>tea:// protocol is now available!</strong><ul><li>Please try it out and let us know what you think! You can copy <strong>tea:// links from your Tivoli files</strong> or select an avatar from the avatar app.</ul><p><strong>Performance updates</strong> that make things feel faster!:<ul><li>Improved performance of <strong>entity updates</strong> - <a href=https://github.comkasenvr/project-athena/pull/276>thanks HifiExperiments</a><li>Improved performance of <strong>pick rays</strong> significantly<li>Local entities get <strong>higher priority updates</strong> now<li>VR hand lasers also get <strong>higher priority updates</strong><li>Added an option to set <strong>maximum texture memory</strong> in graphics settings</ul><p>Other changes to <strong>interface</strong>:<ul><li><strong>Avatar entities</strong> are working a lot better now so we can do attachments!<li>Static entities are converted to automatic when cloned<li>Added open in external browser to in-world browser (<kbd>CTRL</kbd> + <kbd>B</kbd>) - thanks ctrlaltdavid</ul><p>Bug fixes to <strong>interface</strong>:<ul><li>Fixed a crash <strong>when switching audio output</strong><li>Fixed bug where <strong>procedural shaders</strong> get applied to other entities<li>Added <strong>login/logout buttons</strong> when not using the launcher<li>Removed <strong>"customTags"</strong> which were all over the entities json<li>Avatar URL was moved to another more reliable packet<li>Removed old graphics menu</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.14.2 - September 23, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0142-september-23-2020</link>
+            <guid>0142-september-23-2020</guid>
+            <pubDate>Wed, 23 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Using Tivoli on macOS with an AMD graphics card is now fixed!</strong><p>If you were having problems with you Mac, this version may likely work. If not, please let us know so we can try to figure out the issue.<p>Other changes:<ul><li>Reverted laptop touch pad controls update from 0.14.0</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.14.1 - September 21, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0141-september-21-2020</link>
+            <guid>0141-september-21-2020</guid>
+            <pubDate>Mon, 21 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>This is a very small patch where:<ul><li>The <strong>world server has been fixed</strong> and you can now update<li>Increased physics network update speed for smoother physics</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.14.0 - September 20, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0140-september-20-2020</link>
+            <guid>0140-september-20-2020</guid>
+            <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>This update has some changes that make <strong>Tivoli feel a lot faster!</strong> The two most important are:<ul><li>You can now <strong>immediately move around</strong> when you join a world. There's a <strong>"ghosting"</strong> property for <strong>zone entities</strong> where you can disable this.<li>Assets are now <strong>cached to the disk</strong> so you <strong>don't have to download everything every time</strong>. You can resize or move it's location in the new settings menu.</ul><p>We can't wait for you to try it and let us know what you think!<p>General changes to <strong>interface</strong>:<ul><li>Added <strong>new settings menu</strong> which is going to unify everything together! It's still work in progress and doesn't include everything yet, but it already has some new settings.<li>Added <strong>nametag settings</strong> where you can customize your display name or set your pronouns.<li>Enabled <strong>SL style insProtocol changepect</strong> by default. Hold <kbd>Alt</kbd> and right mouse click to look around.<li>Disabled <strong>loading things</strong> at the bottom of the screen since the caching and ghosting makes it feel unnecessary.</ul><p>Changes to <strong>entities</strong>:<ul><li>Fixed <strong>blendshapes for glTF</strong> - <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/f1d0652402a714d289144a7aa63f2f03e878d64b>thanks ctrlaltdavid</a><li>Added <strong>"none"</strong> to <strong>web entity input modes</strong> which won't capture any user input.<li>Hopefully the create tools might crash less.</ul><p>Changes to <strong>chat</strong>:<ul><li>You can <strong>send code in chat</strong> by wrapping your message like this <strong>```console.log("Hi!")```</strong></ul><p>Changes to the <strong>scripting API</strong>:<ul><li>Added <strong><a href=https://apidocs.tivolicloud.com/Reticle.html#.enabled><code>Reticle.enabled</code></a></strong> variable<li>Added <strong><a href=https://apidocs.tivolicloud.com/Chat.html#.messageSent><code>Chat.messageSent</code></a></strong> signal</ul><p>Bug fixes to <strong>interface</strong>:<ul><li>Flipped laptop touch pad controls to feel more natural.<li>Disabled drag and dropping files into the window to upload to atp which kept happening by accident.<li>Fixed bug where overview overlay (hold <kbd>Tab</kbd>) could accidentally capture all input.<li>Fixed bug where nametags could block your input.</ul><p>Tivoli is now also available on the <strong>Arch User Repository</strong> under <strong><a href=https://aur.archlinux.org/packages/tivoli-cloud-vr-bin><code>tivoli-cloud-vr-bin</code></a></strong>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.13.2 - August 31, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0132-august-31-2020</link>
+            <guid>0132-august-31-2020</guid>
+            <pubDate>Mon, 31 Aug 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>General changes to <strong>interface</strong>:<ul><li><strong>Zone culling works now!</strong> and can be used in your worlds<li><strong>Disabled all smoothing</strong> for trackers and controllers in VR<li>When loading worlds, <strong>your avatar won't be stuck as long</strong> as before<li>Optimizations to <strong>render pipeline</strong>, things should <strong>feel snappier now</strong><li>Fixed bug causing <strong>certain entities</strong> to <strong>intermittently not render</strong><li>Fixed <strong>Valve Index not detecting SteamVR trackers</strong> - <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/52b35576b0efb19096f7a1fe0d3764c1088ae0d1>thanks Fluffy</a><li><strong>Parenting entities to your avatar</strong> is not as laggy anymore - <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/d52c15329e7f2ba1409a537346975695cb215157>thanks HifiExperiments</a><li>Fixed lag when you start Tivoli with a scaled avatar - <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/ee756f12b444492b71e490d85bc61485a55b6316>thanks HifiExperiments</a></ul><p>Changes to <strong>interface chat</strong>:<ul><li>You can <strong>select text</strong> now and a <strong>scrollbar</strong> has been added<li>Use <strong>up and down arrows</strong> to view your own <strong>chat history</strong><li>When <strong>sending URLs</strong> you'll see <strong>info about the site</strong>, for example: YouTube video title and description or thumbnail of an Instagram image<li>Added <kbd>/</kbd> shortcut to <strong>open chat with a command</strong> and moved stats menu to <kbd>F3</kbd></ul><p>Changes to the <strong>scripting API</strong>:<ul><li>Added <strong><a href=https://apidocs.tivolicloud.com/global.html#btoa><code>btoa</code></a></strong> and <strong><a href=https://apidocs.tivolicloud.com/global.html#atob><code>atob</code></a></strong> to convert <strong>text to base64 and back</strong>.<li>Added <strong><a href=https://apidocs.tivolicloud.com/global.html#request><code>request</code></a></strong> to make <strong>easier HTTP requests</strong> than using XMLHttpRequest<li>Added <strong><a href=https://apidocs.tivolicloud.com/Chat.html#.messageReceived><code>Chat.messageReceived</code></a></strong> signal<li>Enabled <strong><a href=https://apidocs.tivolicloud.com/Test.html><code>Test</code></a></strong> namespace which has always been available</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.13.1 - August 19, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0131-august-19-2020</link>
+            <guid>0131-august-19-2020</guid>
+            <pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Fixed <strong>critical rendering and framerate</strong> bugs.<br> Occlusion with GLTF sadly won't work again.<p>Sorry for the inconvenience.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.13.0 - August 18, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0130-august-18-2020</link>
+            <guid>0130-august-18-2020</guid>
+            <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Yay, a new version of Tivoli! This version has lots of updates!<p>There's a <strong>protocol change!</strong> You'll have to update your server(s).<p>Changes to <strong>interface create tools</strong>:<ul><li>Added <strong>transparent background</strong> property to web entities<li>Added <strong>clone grabbable</strong> property to all entities<li>Added button to <strong>teleport your avatar</strong> to selected entities<li>As well as <strong>teleport selected entities</strong> to your avatar <br><li><strong>Occlusion textures</strong> should now import with GLTF models<li>Hopefully <strong>fixed some crashes</strong> whilst using the create tools</ul><p>Changes to the <strong>launcher</strong>:<ul><li><strong>World server</strong> is now available for <strong>Windows</strong> in the launcher!<br> Enable under <strong>"Settings > General > Enable local world server"</strong><li>Added <strong>"Open Tivoli interface"</strong> to the tray menu<li>When updates fail, there's now a fallback button to manually download</ul><p>Changes to the <strong>scripting API</strong>:<ul><li>Added <strong><code>Camera.disableLookAt</code></strong> which will let your camera rotate with your avatar<li>Added <strong><code>About.platform</code></strong> which returns <code>"Tivoli Cloud VR"</code> for interoperability with forks<li>Added new <strong><a href=https://apidocs.tivolicloud.com/Chat.html>Chat</a></strong> namespace where you can add your own commands <em>(yay for cli!)</em></ul><p>Changes to <strong>interface chat</strong>:<ul><li>Added <strong>text to speech</strong> support to <strong>Linux</strong> with <code>festival</code><li><strong>Don't speak urls</strong> when they're in your message<li>Added <strong>new line support</strong> with <kbd>Shift</kbd> + <kbd>Enter</kbd></ul><p>General changes to <strong>interface</strong>:<ul><li>You should be able to <strong>grab things with two hands</strong> in VR again<li>Fixed <strong>H264 with WebRTC</strong> for livestreaming on Windows<li>Lowered <strong>minimum Linux</strong> distro to <strong>Ubuntu 18.04</strong><li>Updated explore so <strong>only compatible protocols</strong> appear<li>Added experimental <strong>"Developer > Tivoli Options > Bypass Script Engine Throttling"</strong> which can possibly speed up scripts<li>Fixed bug where web entities had access to your microphone in order to fix audio not coming through Oculus headsets. <strong>Microphone and camera permission will always be strictly requested and never automatically allowed.</strong></ul><p>General fixes to <strong>interface</strong>:<ul><li>Fixed bug where some <strong>entities randomly don't render</strong><li>Fixed <strong>entities showing in-world</strong> when they're <strong>meant to be gone</strong><li>Fixed some AMD issues. <strong>Display-based FPS</strong> will now use <strong>60 FPS minimum</strong><li>Fixed toolbar/tablet button labels not showing the correct font</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.12.0 - August 4, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0120-august-4-2020</link>
+            <guid>0120-august-4-2020</guid>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Added <strong>Squirrel Nut Cafe</strong> content to the game files so it loads <strong>instantly</strong>. Never wait ever again!<li>Added <strong>antialiasing settings</strong> to the graphics menu with: <strong>None, TAA or FXAA</strong><li>Added <strong>nametags toggle</strong> to graphics. Snap app can now also <strong>temporarily disable</strong> them<li>Added <strong>more properties to entities</strong> like, opacity, text font/effect, billboard mode and web input mode<li>Added <strong>/tts</strong> and <strong>/ttstoggle</strong> to chat which currently only works on Windows<li>Added <strong>lock icon to window title</strong> when in a <strong>private world</strong> <br><br><li>Updated <strong>SteamVR/OpenVR</strong> with 2 years of updates which may help with <strong>Valve Index</strong> or <strong>Pimax</strong><li>Updated <strong>Oculus VR</strong> as well which may improve performance<li><strong>Experimental Linux VR</strong> support with <strong>SteamVR/OpenVR</strong> <br><br><li>Unlimited FPS has been updated to <strong>Display-based FPS</strong> so you don't render more than necessary<li>It's now possible to <strong>load urls relatively</strong> when <strong>importing entities from JSON</strong>. The <a href=blender-tools/host-a-world>blender tools</a> are now much easier to use<li>Fixed loading external QML with <code>tablet.loadQMLSource</code></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.11.0 - July 27, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0110-july-27-2020</link>
+            <guid>0110-july-27-2020</guid>
+            <pubDate>Mon, 27 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>AMD graphics cards now work which won't crash on startup anymore!</strong><br> I'm so happy because this has been an annoying bug stopping people from even trying Tivoli.</p><strike>This bug fix also applies to macOS users with AMD gpus.</strike><p>Edit 1: The AMD bug is not fixed on macOS and we're really sorry. More research will be done as soon as possible.<p>Edit 2: THE <strong>INVISIBLE AVATAR BUG IS FIXED!</strong> For the few people whose avatar wasn't coming through, it's now fixed!<ul><li>Fixed <strong>online users disappearing</strong> in explore<li>Fixed <strong>scrolling in explore</strong> when in VR<li>Updated <strong>mic bar to be horizontal</strong> so it's more obvious when you're muted or not<li>Added <strong>"Import Entities from URL"</strong> to the create menu<li>Added <strong>keyboard shortcut for reconnecting</strong> using <kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd><li>Fixed <strong>audio crackling for arm64 servers</strong> such as Raspberry Pi<li>Disabled crashy context menu appearing in any web overlay or entity</ul><p>Changes to <strong>in-world chat</strong><ul><li><strong>Links and images</strong> are now <strong>clickable</strong> when focused<li>Added <strong>/me</strong> command to talk in third person<li>Fixed <strong>scrolling</strong> through the chat history<li>Unfortunately chat is <strong>not compatible</strong> with <strong>0.10.5 or older</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.5 - July 16, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0105-july-16-2020</link>
+            <guid>0105-july-16-2020</guid>
+            <pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>The <strong>auto updater will not work</strong> for this version! <br> Download <strong>Tivoli</strong> from <strong><a href=https://tivolicloud.com>https://tivolicloud.com</a></strong> <br> We're sorry for the inconvenience<ul><li>Changed the <strong>default world</strong> to <strong>Squirrel Nut Cafe</strong><li>Added <strong>background and animations</strong> to chat<li>Fixed <strong>joined/left without usernames</strong> in chat<li>Fixed <strong>low resolution textures</strong><li>Added <strong>unlimited FPS</strong> option in graphics which is default<li><strong>Disabled vsync</strong> to decrease input latency<li>Renamed performance menu to <strong>graphics menu</strong><li>Added <strong>F11</strong> shortcut to <strong>toggle fullscreen</strong><li>Shadows are now enabled by default<li>And another fix... Make sure to <strong>update your server!</strong> <span style="font-size: 0.6em">...expect the <strong>audio to sound better</strong>...</span></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.4 - July 11, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0104-july-11-2020</link>
+            <guid>0104-july-11-2020</guid>
+            <pubDate>Sat, 11 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Tivoli server will now run on arm64 such as <strong>Raspberry Pi</strong> and <strong>Android!</strong><ul><li>Added <strong>new overview</strong> accessible by <strong>holding down tab</strong> <ul><li>Will show <strong>where you are</strong>, <strong>players nearby</strong>, <strong>ping</strong> and <strong>draw calls</strong></ul><li>When joining a world, you'll now <strong>appear at the correct location</strong><li>Audio from <strong>web entities</strong> now <strong>output through your selected device</strong><li><strong>Maximum texture size</strong> is now set to <strong>8192 x 8192</strong><li><strong>Audio menu</strong> was reorganized</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.3 - July 4, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0103-july-4-2020</link>
+            <guid>0103-july-4-2020</guid>
+            <pubDate>Sat, 04 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Fixed <strong>accidental right mouse clicking</strong> on the chat when moving the camera</ul><p>Changes to the <strong>launcher</strong><ul><li><strong>Tray icon works properly</strong> now on Windows<li><strong>Launcher will open</strong> when you run it again<li>Fixed changelog tab</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.2 - July 4, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0102-july-4-2020</link>
+            <guid>0102-july-4-2020</guid>
+            <pubDate>Sat, 04 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Fully fixed bug where <strong>anyone could edit unlocked entities</strong> <ul><li>You don't have to lock your entities anymore to avoid griefing<li>Update your server to make sure that it's in effect</ul><li><strong>Completely recreated chat</strong> with emojis, images, commands and join/leave messages<li>Button to pick <strong>your avatar from your Tivoli files</strong> in the avatar app</ul><p>Smaller changes to <strong>interface</strong><ul><li>Disabled the shader cache <strong>which was causing crashes</strong> for some people<li>Hopefully fixed not being in <strong>first person when in vr</strong></ul><p>Changes to the <strong>launcher</strong><ul><li>Tivoli now has a <strong>tray icon</strong> so you don't close interface as easily<li><strong>Disabled "Waiting at the launcher..."</strong> Discord rich presence<li>Ability to set additional environment variables in developer menu</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.1 - June 27, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0101-june-27-2020</link>
+            <guid>0101-june-27-2020</guid>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Added scripts to market app</strong> which will include lots of fun things soon<li><strong>Removed P shortcut</strong> that used to take a snapshot<li><strong>Enabled autoplay</strong> for audio or videos on web entities<li><strong>Shaders won't be applied</strong> to other entities anymore<li>When downloading assets, <strong>user agent will include <code>TivoliCloudVR/&LTversion></code></strong></ul><p>Changes to the <strong>launcher</strong><ul><li>Added <strong>"Remove all settings" button</strong> to reset Tivoli settings<li><strong>Fixed Windows installation failing</strong> when changing install path<li><strong>Fixed copy and pasting</strong> on macOS</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.10.0 - June 24, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#0100-june-24-2020</link>
+            <guid>0100-june-24-2020</guid>
+            <pubDate>Wed, 24 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>This is the first public release of Tivoli! <br> Now fully available at <a href=https://tivolicloud.com>https://tivolicloud.com</a></strong><p>Just a couple of bug fixes<ul><li>Shadows look better now as they have a longer distance<li>Textures will downscale at resolution 4096 instead of 2048</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.9.2 - June 18, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#092-june-18-2020</link>
+            <guid>092-june-18-2020</guid>
+            <pubDate>Thu, 18 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Fixed textures and models not loading</strong> on Windows and macOS<li>Updated the <strong>Enter/Leave VR</strong> button with a non-glitchy icon <br><br><li>Launcher now shows <strong>version in window title</strong><li>Interface <strong>launch errors are now properly shown</strong> on the launcher <br><br><li>Fixed a sudden crash when changing model URLs<li>Fixed reloading content in serverless worlds -- <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/f2051e1d6df5efd72fa8a4bf0ab07b7ffbd839e4>thank you ctrlaltdavid</a></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.9.1 - June 9, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#091-june-9-2020</link>
+            <guid>091-june-9-2020</guid>
+            <pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>tivoli.link is now available</strong> for sharing worlds! Visit <strong>My Worlds</strong> and copy your world link <br><br><li><strong>Crashes are now sent to our servers</strong> so we can quickly fix bugs and improve stability<li>When errors occur in the launcher, they'll be shown instead of ignored <br><br><li><strong>Default rotation and position</strong> of newly created entities now face you<li>Added <strong>Reload Page</strong> to web entity properties <br><br><li>Updated to <strong>Qt 5.15 LTS</strong><li>JavaScript <strong>objects will now print correctly</strong> in the console<li>Fixed <strong>Settings > Custom Shaders on Models</strong> menu button<li>Model origins <code>registrationPoint</code> can now be outside of the model's bounding box<li>Added <code>sendToQml</code> function and <code>fromQml</code> signal to web entities</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.9.0 - May 20, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#090-may-20-2020</link>
+            <guid>090-may-20-2020</guid>
+            <pubDate>Wed, 20 May 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Protocol update!</strong> You'll need to update your servers too.<ul><li>New work in progress <strong>Market app</strong> where you can find avatars<li>See <strong>interface logs in the launcher</strong> with button to copy to clipboard<li><strong>Key bindings are now visible</strong> in all menus<li>Rebranded to <strong>early access</strong> <br><br><li>Servers can now use <strong>full automatic networking</strong> with ICE protocol<li>Fixed bug where <strong>snaps were incorrectly named</strong><li>On macOS, <strong>window will be full screen</strong> on startup now <br><br><li>We've moved all CDN content to Google Cloud so <strong>expect much faster downloads</strong><li>Lots of other backend changes readying for our public release!</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.8.2 - May 10, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#082-may-10-2020</link>
+            <guid>082-may-10-2020</guid>
+            <pubDate>Sun, 10 May 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Fixed bug where you could be in third person in VR<li>Reverted laser pointers back to older design for now</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.8.1 - May 9, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#081-may-9-2020</link>
+            <guid>081-may-9-2020</guid>
+            <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Fixed <strong>tablet which broke from last update</strong><li>Updated <strong>the toolbar and tablet fonts</strong> to be condensed<li>Updated <strong>the tablet</strong> user interface</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.8.0 - May 9, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#080-may-9-2020</link>
+            <guid>080-may-9-2020</guid>
+            <pubDate>Sat, 09 May 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Tivoli for Linux</strong> is now available! As an <strong>AppImage, deb and arch package</strong> <br><br><li>Brand new <strong>default avatar called Lynden</strong> (inspired from <a href=https://www.imdb.com/title/tt8134186>Devs</a>), unique per person <ul><li>New button in <strong>avatar app</strong> that will let you randomize colors</ul><li>Lots of <strong>user interface updates</strong> to fit our design language <ul><li>Updated <strong>the toolbar at the bottom</strong> with new colorful buttons<li>Updated <strong>the window frames</strong><li>Updated <strong>the icons</strong></ul><li>New <strong>default skybox</strong> to be a pretty colorful aurora<li>New <strong>menu buttons</strong> <ul><li><strong>Settings > Use Avatar Placeholders</strong> will stop rendering avatar models<li><strong>Settings > Custom Shaders on Models</strong> which is enabled by default<li><strong>Developer > Tivoli Options > Stop Rendering</strong><li><strong>Edit > Reload Avatar</strong> <br><br></ul><li>Fixed <strong>secondary camera being too dark</strong> on mirrors or spectator camera<li>Fixed <strong>avatars resetting when changing worlds</strong> <em>...thank goodness finally</em><li>Fixed <strong>reload model button</strong> on model entities<li>Fixed <strong>flipped normals on double sided geometry</strong> -- <a href=https://git.tivolicloud.com/tivolicloud/interface/-/commit/f817e7af46232826c21b5e4db9414a0985ada701>thank you HifiExperiments</a><li>Fixed <strong>default spawn location</strong> for new users, now at Silence<li>Fixed <strong>default camera not set to third person</strong><li>Fixed current version not showing on <a href=https://apidocs.tivolicloud.com>https://apidocs.tivolicloud.com</a></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.7.2 - April 22, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#072-april-22-2020</link>
+            <guid>072-april-22-2020</guid>
+            <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>New <strong>private tab in explore</strong> where you can find worlds you have access to <br><br><li>Fixed window <strong>not centering on macOS</strong><li>Fixed <strong>disable vr</strong> showing in launcher when using unsupported platform<li>Fixed <strong>reloading and searching</strong> in explore menu<li>Fixed <strong>default world for new users</strong>. They will spawn at Silence now</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.7.1 - April 21, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#071-april-21-2020</link>
+            <guid>071-april-21-2020</guid>
+            <pubDate>Tue, 21 Apr 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Fixed the macOS version</strong> from crashing. This was a silly mistake of us<li><strong>Anti-aliasing is permanently disabled</strong> until it's fixed</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.7.0 - April 17, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#070-april-17-2020</link>
+            <guid>070-april-17-2020</guid>
+            <pubDate>Fri, 17 Apr 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Tivoli for macOS</strong> is now available! <br><br><li><strong>Updated all fonts!</strong> This is so lovely because it's now consistent<li><strong>Removed all ugly gradients!</strong> Buttons with gradients don't fit in<li><strong>Started fixing capitalization</strong> on buttons and text<li>Added <strong>supersampling up to 5x</strong> in the performance settings <br><br><li>Updated the <strong>performance settings</strong> which needs major redesigning regardless <ul><li><em>There's now a <strong>potato</strong> option...</em></ul><li>Experimental <strong>"reload model"</strong> button on model entities<li>Experimental <strong>disable custom shaders</strong> option<li>Experimental <strong>disable bone flow</strong> option<li>Experimental <strong>force unlit</strong> option<li>Experimental <strong>fast refresh scene</strong> button <br><br><li>Fixed a bug where <strong>glb models</strong> weren't being loaded<li>Fixed the bug where a <strong>white rectangle always appears</strong> at 0,0,0<li>Fixed old broken links in the menus<li>Green loading cube is now a Tivoli colored cube!</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.6.0 - March 28, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#060-march-28-2020</link>
+            <guid>060-march-28-2020</guid>
+            <pubDate>Sat, 28 Mar 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Updated Tivoli to <strong>Qt 5.14.1</strong>! <ul><li><strong>Web entities work perfectly</strong> now as they're using updated <strong>Chrome version 77</strong><li><strong>All video and audio codecs work now</strong> so you can watch Twitch with your friends<li>Overall speed performance from almost a year's worth of patches <br><br></ul><li>Fixed bug where <strong>entity animations</strong> weren't playing<li>You can <strong>tilt your camera now when loading</strong> a world<li>Worlds load properly now if you have a <strong>slow internet connection</strong><li>Web entities aren't "mobile devices" anymore when visiting websites (user agent) <br><br><li><strong>Logging in with Google</strong> works again on the launcher<li>For people with <strong>VC redist</strong> problems, you can launch Tivoli without installing anything</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.5.0 - March 11, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#050-march-11-2020</link>
+            <guid>050-march-11-2020</guid>
+            <pubDate>Wed, 11 Mar 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Tivoli interface will <strong>close much faster</strong><li>Setting <strong>blendshapes on model entities</strong> are supported<li><strong>Experimental</strong> new <strong>hand laser redesign</strong><li>Reactivated <strong>secure microphone and camera permissions</strong> for web entities<li><strong>Secondary camera</strong> uses <strong>proper light and shadow rendering</strong> again<li><strong>Experimental loading content indicator redesign</strong> which will be changed <br><br><li>Several <strong>zone culling and static entities</strong> bug fixes<li>Several <strong>static entities</strong> bug fixes including when in create mode<li>Fixed crashes on <strong>audio output device change</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.4.1 - February 18, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#041-february-18-2020</link>
+            <guid>041-february-18-2020</guid>
+            <pubDate>Tue, 18 Feb 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Fixed disable VR button</strong> in launcher<li><strong>Default settings for new users</strong> have been updated<li>Moved launcher developer settings<li>Prettier launcher background</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.4.0 - February 12, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#040-february-12-2020</link>
+            <guid>040-february-12-2020</guid>
+            <pubDate>Wed, 12 Feb 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><p><strong>Features and improvements</strong></p> <ul><li><p><strong>Interface</strong></p> <ul><li>Added <strong>Entity Priority</strong> which should help creators determine what should be static or dynamic. It makes <strong>frame rates ridiculously higher!</strong><li><strike>You can <strong>scale entities with your hands</strong> when in VR</strike><li><strong>Flight controls</strong> have been updated to feel nicer<li>Entities are <strong>simulated at closer distance</strong> so animations don't look laggy<li><strong>Edit tools</strong> should feel more responsive now<li>You can load <strong>serverless json worlds from HTTP(S)</strong> links now</ul><li><p><strong>Launcher</strong></p> <ul><li>You can now view the <strong>changelog</strong> from a tab</ul><li><p><strong>Server</strong></p> <ul><li><strong>World spawn path</strong> is now set in the server settings under <strong>Content > Paths</strong></ul><li><p><strong>Bug fixes</strong></p> <ul><li>Installing Tivoli will <strong>install dependencies that were missing</strong> on some machines<li><strong>Switching audio devices</strong> doesn't crash you anymore<li>Fixed exploit where you can edit entities without create rights<li><strong>Game loop rate</strong> and <strong>bypass priority</strong> are available in stats now (press /)<li>Removed annoying uploading to asset server message that was creepy and weird<li>Fixed scrollbars that were missing</ul></ul></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.3.0 - January 21, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#030-january-21-2020</link>
+            <guid>030-january-21-2020</guid>
+            <pubDate>Tue, 21 Jan 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Zone culling cull all entity types</strong> and transitions faster<li><strong>Entities load faster when you connect</strong> by temporarily disabling their render priority <br><br><li><strong>Web entities</strong> have a higher frame rate by default<li><strong>Explore</strong> uses a brand new panel format when in <strong>VR</strong><li><strong>Explore</strong> now shows the <strong>currently connected world</strong> down below<li><strong>Exploreloads instantaneously</strong> when you open it <br><br><li><strong>Launcher has a disable VR button</strong> next to the launch button</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.2.0 - January 17, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#020-january-17-2020</link>
+            <guid>020-january-17-2020</guid>
+            <pubDate>Fri, 17 Jan 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><strong>Frame rate</strong> has been significantly improved<li><strong>Zone culling</strong> performance has improved<li><strong>Zone culling</strong> labels are easier to understand<li><strong>Tablet</strong> size/distance are back to normal<li><strong>Mic button</strong> at the top left is ensured to show <br><br><li>Improved developer UI for <strong>launcher</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[0.1.0 - January 9, 2020]]></title>
+            <link>https://docs.tivolicloud.com/changelog/#010-january-9-2020</link>
+            <guid>010-january-9-2020</guid>
+            <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Initial release!</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

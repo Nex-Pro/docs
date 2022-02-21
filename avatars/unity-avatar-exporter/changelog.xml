@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Tivoli Cloud VR - Unity Avatar Exporter Changelog</title>
+        <link>https://tivolicloud.github.io/docs/avatars/unity-avatar-exporter/changelog</link>
+        <description>Tivoli Cloud VR - Unity Avatar Exporter Changelog</description>
+        <lastBuildDate>Mon, 21 Feb 2022 05:35:23 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Tivoli Cloud VR - Unity Avatar Exporter Changelog</title>
+            <url>https://tivolicloud.github.io/docs/assets/favicon.png</url>
+            <link>https://tivolicloud.github.io/docs/avatars/unity-avatar-exporter/changelog</link>
+        </image>
+        <copyright>Copyright © 2022 Tivoli Cloud VR, Inc. All rights reserved.</copyright>
+        <item>
+            <title><![CDATA[1.0.1 - September 6, 2020]]></title>
+            <link>https://docs.tivolicloud.com/avatars/unity-avatar-exporter/changelog/#101-september-6-2020</link>
+            <guid>101-september-6-2020</guid>
+            <pubDate>Sun, 06 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><p><strong>Standard</strong> shader works now!</p> <p>When exporting with <strong>metallic + glossiness</strong> textures, the exporter will automatically create new textures that are compatible with Tivoli. <strong>Standard (Specular setup)</strong> currently doesn't work but can be fixed in the future.<li><p><strong>Autodesk interactive</strong> shader works as well now. It was originally called <strong>Standard (Roughness setup)</strong> but the rename broke the exporter.<li><p>When exporting, the <strong>scale slider</strong> works now with locales that use comma as decimal separator, for example: Germany, Belgium, etc.<li><p>Added <strong>double sided faces</strong> toggle when exporting. Unfortunately Unity doesn't let you enable it per material but it's an export option for now. It's disabled by default.</p> <p><img src=changelog/double-sided-faces.png alt="Double sided faces"></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[1.0.0 - June 27, 2020]]></title>
+            <link>https://docs.tivolicloud.com/avatars/unity-avatar-exporter/changelog/#100-june-27-2020</link>
+            <guid>100-june-27-2020</guid>
+            <pubDate>Sat, 27 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Initial release!<ul><li>Added <strong>Linux</strong> support<li>Added <strong>unlit shader</strong> support<li>Added <strong>transparency</strong> on textures support</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

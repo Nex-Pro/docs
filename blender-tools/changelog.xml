@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Tivoli Cloud VR - Blender Tools Changelog</title>
+        <link>https://tivolicloud.github.io/docs/blender-tools/changelog</link>
+        <description>Tivoli Cloud VR - Blender Tools Changelog</description>
+        <lastBuildDate>Mon, 21 Feb 2022 05:35:23 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Tivoli Cloud VR - Blender Tools Changelog</title>
+            <url>https://tivolicloud.github.io/docs/assets/favicon.png</url>
+            <link>https://tivolicloud.github.io/docs/blender-tools/changelog</link>
+        </image>
+        <copyright>Copyright © 2022 Tivoli Cloud VR, Inc. All rights reserved.</copyright>
+        <item>
+            <title><![CDATA[1.2.1 - October 22, 2021]]></title>
+            <link>https://docs.tivolicloud.com/blender-tools/changelog/#121-october-22-2021</link>
+            <guid>121-october-22-2021</guid>
+            <pubDate>Fri, 22 Oct 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li>Added <strong>as .glb</strong> to <strong>glTF export</strong> for avatars</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[1.2.0 - October 8, 2021]]></title>
+            <link>https://docs.tivolicloud.com/blender-tools/changelog/#120-october-8-2021</link>
+            <guid>120-october-8-2021</guid>
+            <pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><p>Added <strong>glTF export</strong> when exporting as fst, which is enabled by default.<li><p>Added <strong>Animation tools</strong> panel for baking vertex animations like cloth. It's still a bit experimental.<li><p>WebP optimization is <strong>disabled by default</strong> because it's not always more efficient.</ul><p>Avatar tools:<ul><li>Added <strong>ensure root bone</strong> which will make sure <strong>feet stay on the ground</strong> in world. Yay, I hate this bug so much!<li><p><strong>Add Tivoli armature</strong> button will automatically have a <strong>root bone</strong> too.<li><p>Added <strong>Force T-Pose</strong> and <strong>Clear T-Pose</strong> buttons back in<li><p>Added <strong>Add "glTF settings" node</strong> button</ul><p>FBX Avatars:<ul><li>Improved <code>materialMap</code> generation when exporting<li>Easily assign <strong>unlit texture/color</strong> with <strong>Tivoli settings node</strong> when exporting</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[1.1.1 - September 15, 2020]]></title>
+            <link>https://docs.tivolicloud.com/blender-tools/changelog/#111-september-15-2020</link>
+            <guid>111-september-15-2020</guid>
+            <pubDate>Tue, 15 Sep 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><p>When exporting your avatar as <strong>unlit</strong>, it will now use the <strong>emission</strong> color or image from <strong>Principled BSDF</strong><li><p>Added <strong>fix bone rotations</strong> and disabled force/clear t-pose for now as it's not necessary and broken</p> <p><img src=changelog/fix-bone-rotations.png alt="Fix bone rotations"><li><p>Fixed bug when exporting your avatar, where it should use <strong>Principled BSDF</strong> connected from the <strong>Material output</strong></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[1.1.0 - August 4, 2020]]></title>
+            <link>https://docs.tivolicloud.com/blender-tools/changelog/#110-august-4-2020</link>
+            <guid>110-august-4-2020</guid>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul><li><p>When <strong>exporting your scene to JSON, you don't need to enter your export URL</strong> anymore. <strong>Tivoli 0.12.0</strong> can automatically figure out the assets next to the exported JSON.<li><p>Exporting light mapped scenes to JSON is more likely to work than before.<li><p>You can now <strong>export avatars</strong> through our addon!</p> <p>More features will be added soon to make this easier, such as automatically renaming bones and fixing bone rotations.</p> <p><img src=changelog/avatar-tools.png alt="Avatar tools"></p> <ul><li><p><strong>Add Tivoli armature</strong> to import a reference armature<li><p><strong>Add Tivoli settings node</strong> to get extra settings for your materials</p> <p>When clicked, you can then add a node like this:</p> <p><img src=changelog/tivoli-settings-node.png alt="Tivoli settings node"><li><p><strong>Force/Clear T-Pose</strong> to see if the bones look correctly before exporting</ul> <p>When you're happy, export your avatar through the export menu and you'll have a folder that you can upload to <a href=https://files.tivolicloud.com>Tivoli files</a> or your own webserver:</p> <p><img src=changelog/export-avatar.png alt="Export avatar"></p> <p>Find more information about our rig at the <a href=../../avatars/avatar-standards>avatar standards</a> page.</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[1.0.0 - July 28, 2020]]></title>
+            <link>https://docs.tivolicloud.com/blender-tools/changelog/#100-july-28-2020</link>
+            <guid>100-july-28-2020</guid>
+            <pubDate>Tue, 28 Jul 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Initial release!]]></content:encoded>
+        </item>
+    </channel>
+</rss>
