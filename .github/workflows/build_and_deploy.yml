@@ -32,6 +32,18 @@ jobs:
               shell: bash
               run: python3 -m mkdocs build -d public
 
+            - name: Setup Deno
+              uses: denoland/setup-deno@v1
+              with:
+                  deno-version: v1.x
+
+            - name: Build changelog
+              shell: bash
+              run: |
+                  deno run --unstable -A changelog-rss.ts "Changelog" docs/changelog.md
+                  deno run --unstable -A changelog-rss.ts "Blender Tools Changelog" docs/blender-tools/changelog.md
+                  deno run --unstable -A changelog-rss.ts "Unity Avatar Exporter Changelog" docs/avatars/unity-avatar-exporter/changelog.md
+
             - name: Deploy to GitHub Pages
               uses: JamesIves/github-pages-deploy-action@3.7.1
               with:
